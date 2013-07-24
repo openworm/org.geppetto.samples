@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openworm.org/simulationSchema ../../src/main/resources/schema/simulationSchema.xsd ">
+  <tns:configuration>
+    <tns:outputFormat>RAW</tns:outputFormat>
+  </tns:configuration>
+  <tns:aspects>
+    <tns:modelInterpreter>lemsModelInterpreter</tns:modelInterpreter>
+      <tns:modelURL>https://dl.dropboxusercontent.com/u/7538688/GeppettoSimulations/SingleComponentHH/LEMS_NML2_Ex5_DetCell.xml?dl=1</tns:modelURL>
+    <tns:simulator>jLemsSimulator</tns:simulator>
+    <tns:id>example1</tns:id>
+  </tns:aspects>
+  <tns:name>example1</tns:name>
+</tns:simulation>
