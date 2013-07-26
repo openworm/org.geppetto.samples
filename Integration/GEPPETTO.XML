@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openworm.org/simulationSchema ../../src/main/resources/schema/simulationSchema.xsd ">
+  <tns:configuration>
+    <tns:outputFormat>RAW</tns:outputFormat>
+  </tns:configuration>
+  <tns:entities>
+    <tns:entity>
+      <tns:id>muscle_cell</tns:id>
+      <tns:aspects>
+        <tns:aspect>
+          <tns:modelInterpreter>lemsModelInterpreter</tns:modelInterpreter>
+            <tns:modelURL>https://dl.dropboxusercontent.com/u/7538688/GeppettoSimulations/SingleComponentHH/LEMS_NML2_Ex5_DetCell.xml?dl=1</tns:modelURL>
+          <tns:simulator>jLemsSimulator</tns:simulator>
+          <tns:id>example1</tns:id>
+          <tns:group>group1</tns:group>
+        </tns:aspect>
+        <tns:aspect>
+          <tns:modelInterpreter>lemsModelInterpreter</tns:modelInterpreter>
+            <tns:modelURL>https://dl.dropboxusercontent.com/u/7538688/GeppettoSimulations/SingleComponentHH/LEMS_NML2_Ex5_DetCell.xml?dl=1</tns:modelURL>
+          <tns:simulator>jLemsSimulator</tns:simulator>
+          <tns:id>example1</tns:id>
+          <tns:group>group1</tns:group>
+        </tns:aspect>
+        </tns:aspects>
+        <tns:scripts>
+          <tns:script>
+            <tns:statesMap>
+              <tns:element state="hhpop[0].v" var="pre_v"></tns:element>
+              <tns:element state="hhpop[1].v" var="post_v"></tns:element>
+              <tns:element state="hhpop[1].i" var="sync_i"></tns:element>
+              <tns:element state="hhpop[0].bioPhys1.membraneProperties.caChans.ca.m.q" var="calcium_level"></tns:element>
+              <tns:element state="muscle[0].contraction" var="muscle_contraction"></tns:element>
+            </tns:statesMap>
+            <tns:URL>https://dl.dropboxusercontent.com/u/7538688/electrofluid.py</tns:scriptURL>
+          </tns:script>
+        </tns:scripts>
+      
+    </tns:entity>
+  <tns:entities>
+  <tns:name>example1</tns:name>
+</tns:simulation>
