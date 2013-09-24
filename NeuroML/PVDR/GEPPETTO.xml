@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openworm.org/simulationSchema ../../src/main/resources/schema/simulationSchema.xsd ">
+  <tns:configuration>
+    <tns:outputFormat>RAW</tns:outputFormat>
+  </tns:configuration>
+  <tns:aspects>
+    <tns:modelInterpreter>neuroMLModelInterpreter</tns:modelInterpreter>
+      <tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/PVDR/PVDR.nml</tns:modelURL>
+    <tns:simulator>neuroMLSimulator</tns:simulator>
+    <tns:id>purkinje</tns:id>
+  </tns:aspects>
+  <tns:name>purkinje</tns:name>
+</tns:simulation>
