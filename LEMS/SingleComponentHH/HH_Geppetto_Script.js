@@ -6,13 +6,14 @@ G.addWidget(Widgets.PLOT);
 
 var options = {yaxis:{min:-.1,max:0.1},xaxis:{min:0,max:640,show:false}};
 
-Plot1.setOptions(options)
 
 Plot1.setName("Hodgkin-Huxley Spiking Neuron");
 
 Plot1.setPosition(194,140);
 
 Plot1.setSize(289.80000019073486,346.80000019073486);
+
+Plot1.setOptions(options)
 
 Simulation.start();
 
