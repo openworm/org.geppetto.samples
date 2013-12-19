@@ -4,7 +4,7 @@ Simulation.startWatch();
 
 G.addWidget(Widgets.PLOT);
 
-var options = {yaxis:{min:-.075,max:0.05},xaxis:{min:0,max:640,show:false}};
+var options = {yaxis:{min:-1,max:0.08},xaxis:{min:0,max:640,show:false}};
 
 Plot1.setOptions(options)
 
@@ -12,4 +12,4 @@ Plot1.plotData(v);
 
 Plot1.plotData(spiking);
 
-Plot1.setPosition(600,200);
+Plot1.setPosition(800,100);
