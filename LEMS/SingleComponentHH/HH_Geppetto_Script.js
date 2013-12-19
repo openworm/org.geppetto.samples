@@ -12,8 +12,6 @@ Plot1.setName("Hodgkin-Huxley Spiking Neuron");
 
 Plot1.setPosition(194,140);
 
-Plot1.setSize(289.80000019073486,346.80000019073486);
-
 Simulation.start();
 
 setTimeout(function(){Plot1.plotData(v);}, 500);
