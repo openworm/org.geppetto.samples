@@ -10,10 +10,12 @@ Plot1.setOptions(options)
 
 Plot1.setName("Hodgkin-Huxley Spiking Neuron");
 
+Plot1.setPosition(194,140);
+
 Simulation.start();
 
 setTimeout(function(){Plot1.plotData(v);}, 500);
 
 setTimeout(function(){Plot1.plotData(spiking);}, 500);
 
-Plot1.setPosition(800,100);
+
