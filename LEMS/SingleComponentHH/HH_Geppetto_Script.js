@@ -14,8 +14,8 @@ Plot1.setPosition(194,140);
 
 Simulation.start();
 
-setTimeout(function(){Plot1.plotData(v);}, 500);
+Plot1.plotData(v);
 
-setTimeout(function(){Plot1.plotData(spiking);}, 500);
+Plot1.plotData(spiking);
 
 
