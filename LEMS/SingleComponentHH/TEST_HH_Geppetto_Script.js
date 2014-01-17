@@ -12,8 +12,6 @@ Plot1.setName("Hodgkin-Huxley Spiking Neuron");
 
 Plot1.setPosition(194,140);
 
-Simulation.start();
-
 Plot1.plotData(hhpop[0].v);
 
 Plot1.plotData(hhpop[0].spiking);
