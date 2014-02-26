@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[100].position.y", "sph.particle[100].position.x"]}]);
+Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[1].position.y", "sph.particle[1].position.x"]}]);
 
 Simulation.startWatch();
 
