@@ -12,8 +12,8 @@ Plot1.setPosition(194,140);
 
 Simulation.start();
 
-Plot1.plotData(hhpop[0].v);
+Plot1.plotData(particle[1].position.x);
 
-Plot1.plotData(hhpop[0].spiking);
+Plot1.plotData(particle[1].position.y);
 
 
