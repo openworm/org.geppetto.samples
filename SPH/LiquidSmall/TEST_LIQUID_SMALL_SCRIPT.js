@@ -4,7 +4,7 @@ Simulation.startWatch();
 
 G.addWidget(Widgets.PLOT);
 
-var options = {yaxis:{min:0,max:10},xaxis:{min:0,max:300,show:false}};
+var options = {yaxis:{min:0,max:15},xaxis:{min:0,max:300,show:false}};
 
 Plot1.setOptions(options)
 
