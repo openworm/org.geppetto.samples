@@ -18,4 +18,5 @@ Plot1.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q);
 
 Plot1.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q);
 
+G.showConsole(true);
 
