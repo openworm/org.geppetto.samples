@@ -31,19 +31,3 @@ Plot2.setOptions(options);
 Plot2.setPosition(873, 102);
 
 Plot2.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.gDensity);
-
-G.wait(1500);
-
-Simulation.load("https://raw.github.com/openworm/org.geppetto.samples/master/SPH/LiquidSmall/GEPPETTO_SCRIPTED.xml")
-
-G.wait(5000);
-
-Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[1].position.z"]}]);
-
-G.addWidget(Widgets.PLOT);
-
-Plot2.setOptions(options);
-
-Plot2.setPosition(873, 102);
-
-Plot2.plotData(particle[1].position.z);
