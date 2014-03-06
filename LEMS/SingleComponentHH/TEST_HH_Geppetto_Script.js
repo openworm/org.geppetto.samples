@@ -38,4 +38,4 @@ G.wait(1000);
 
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"]}]);
 
-Plot2.plotData(hhpop[0].bioPhys1.membraneProperties.kChans.n.q);
+Plot2.plotData(hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q);
