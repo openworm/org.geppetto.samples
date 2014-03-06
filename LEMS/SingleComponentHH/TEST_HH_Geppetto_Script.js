@@ -26,6 +26,8 @@ G.addWidget(Widgets.PLOT);
 
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity"]}]);
 
+options = {yaxis:{min:0,max:250},xaxis:{min:0,max:400,show:false}};
+
 Plot2.setOptions(options);
 
 Plot2.setPosition(873, 102);
