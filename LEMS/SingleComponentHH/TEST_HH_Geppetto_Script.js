@@ -38,12 +38,12 @@ Simulation.load("https://raw.github.com/openworm/org.geppetto.samples/master/SPH
 
 G.wait(1000);
 
-G.addWidget(Widgets.PLOT);
-
 Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[1].position.z"]}]);
+
+G.addWidget(Widgets.PLOT);
 
 Plot2.setOptions(options);
 
-Plot2.setPosition(773, 102);
+Plot2.setPosition(873, 102);
 
-Plot2.plotData(sph.particle[1].position.z);
+Plot2.plotData(particle[1].position.z);
