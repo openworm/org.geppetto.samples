@@ -36,7 +36,7 @@ G.wait(1500);
 
 Simulation.load("https://raw.github.com/openworm/org.geppetto.samples/master/SPH/LiquidSmall/GEPPETTO_SCRIPTED.xml")
 
-G.wait(1000);
+G.wait(5000);
 
 Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[1].position.z"]}]);
 
