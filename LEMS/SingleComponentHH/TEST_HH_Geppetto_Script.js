@@ -20,3 +20,14 @@ Plot1.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q);
 
 G.showConsole(true);
 
+G.wait(1000);
+
+G.addWidget(Widgets.PLOT);
+
+Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity"]}]);
+
+Plot2.setOptions(options);
+
+Plot2.setPosition(595, 300);
+
+Plot2.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.gDensity);
