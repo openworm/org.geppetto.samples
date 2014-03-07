@@ -9,8 +9,8 @@
 				<tns:simulatorId>jLemsSimulator</tns:simulatorId>
 			</tns:simulator>
 			<tns:model>
-    			<tns:modelInterpreter>lemsModelInterpreter</tns:modelInterpreter>
-    			<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/LEMS/SingleComponentHH/LEMS_NML2_Ex5_DetCell.xml</tns:modelURL>
+    				<tns:modelInterpreterId>lemsModelInterpreter</tns:modelInterpreterId>
+    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/LEMS/SingleComponentHH/LEMS_NML2_Ex5_DetCell.xml</tns:modelURL>
 			</tns:model>
 		</tns:aspect>		
 	</tns:entity>
