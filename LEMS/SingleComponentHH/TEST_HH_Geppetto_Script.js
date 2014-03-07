@@ -31,7 +31,7 @@ Plot2.setPosition(873, 102);
 
 Plot1.setName("Gating variables");
 
-Plot2.setName("Conductance densiy");
+Plot2.setName("Conductance density");
 
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity"]}]);
 
