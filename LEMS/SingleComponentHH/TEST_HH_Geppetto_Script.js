@@ -1,4 +1,5 @@
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q", "example1.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q"]}]);
+Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"]}]);
 
 Simulation.startWatch();
 
@@ -8,7 +9,7 @@ var options = {yaxis:{min:0,max:1},xaxis:{min:0,max:100,show:false}};
 
 Plot1.setOptions(options)
 
-Plot1.setName("Hodgkin-Huxley Spiking Neuron");
+Plot1.setName("Gating variables");
 
 Plot1.setPosition(114,169);
 
@@ -18,6 +19,8 @@ Plot1.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q);
 
 Plot1.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q);
 
+Plot1.plotData(hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q);
+
 G.showConsole(true);
 
 G.wait(1000);
@@ -25,6 +28,10 @@ G.wait(1000);
 G.addWidget(Widgets.PLOT);
 
 Plot2.setPosition(873, 102);
+
+Plot1.setName("Gating variables");
+
+Plot2.setName("Conductance densiy");
 
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity"]}]);
 
@@ -35,12 +42,6 @@ Plot2.setOptions(options);
 Plot2.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.gDensity);
 
 G.wait(1000);
-
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"]}]);
-
-Plot2.plotData(hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q);
-
-G.wait(1500);
 
 G.addWidget(Widgets.PLOT);
 
@@ -56,18 +57,20 @@ Plot3.plotData(hhpop[0].spiking);
 
 Plot3.plotData(hhpop[0].debugVal);
 
+Plot3.setName("Hodgkin-Huxley Spiking Neuron");
+
 G.wait(1000);
 
-Plot2.removeDataSet(hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q);
+G.addWidget(Widgets.PLOT);
 
-Plot2.removeDataSet(hhpop[0].bioPhys1.membraneProperties.naChans.gDensity);
+Plot4.setName("Hodgkin-Huxley Spiking debug");
 
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].v", "example1.hhpop[0].spiking"]}]);
 
 options = {yaxis:{min:-.1,max:0.1},xaxis:{min:0,max:160,show:false}};
 
-Plot2.setOptions(options);
+Plot4.setOptions(options);
 
-Plot2.plotData(hhpop[0].v);
+Plot4.plotData(hhpop[0].v);
 
-Plot2.plotData(hhpop[0].spiking);
+Plot4.plotData(hhpop[0].spiking);
