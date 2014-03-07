@@ -39,3 +39,19 @@ G.wait(1000);
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"]}]);
 
 Plot2.plotData(hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q);
+
+G.wait(1500);
+
+G.addWidget(Widgets.PLOT);
+
+Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].debugVal", "example1.hhpop[0].spiking"]}]);
+
+options = {yaxis:{min:-.1,max:0.1},xaxis:{min:0,max:340,show:false}};
+
+Plot3.setOptions(options);
+
+Plot3.setPosition(460, 404);
+
+Plot3.plotData(hhpop[0].spiking);
+
+Plot3.plotData(hhpop[0].debugVal);
