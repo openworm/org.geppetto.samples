@@ -57,13 +57,13 @@ Plot3.plotData(hhpop[0].spiking);
 
 Plot3.plotData(hhpop[0].debugVal);
 
-Plot3.setName("Hodgkin-Huxley Spiking Neuron");
+Plot3.setName("Hodgkin-Huxley Spiking debug");
 
 G.wait(1000);
 
 G.addWidget(Widgets.PLOT);
 
-Plot4.setName("Hodgkin-Huxley Spiking debug");
+Plot4.setName("Hodgkin-Huxley Spiking Neuron");
 
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].v", "example1.hhpop[0].spiking"]}]);
 
