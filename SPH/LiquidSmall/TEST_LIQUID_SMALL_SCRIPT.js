@@ -12,8 +12,8 @@ Plot1.setPosition(194,140);
 
 Simulation.start();
 
-Plot1.plotData(particle[1].position.x);
+Plot1.plotState("particle[1].position.x");
 
-Plot1.plotData(particle[1].position.y);
+Plot1.plotState("particle[1].position.y");
 
 
