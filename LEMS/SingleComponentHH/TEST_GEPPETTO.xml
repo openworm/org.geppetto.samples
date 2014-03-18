@@ -10,5 +10,5 @@
     <tns:id>example1</tns:id>
   </tns:aspects>
   <tns:name>example1</tns:name>
-  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/master/LEMS/SingleComponentHH/TEST_HH_Geppetto_Script.js</tns:script>
+  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/LEMS/SingleComponentHH/TEST_HH_Geppetto_Script.js</tns:script>
 </tns:simulation>
