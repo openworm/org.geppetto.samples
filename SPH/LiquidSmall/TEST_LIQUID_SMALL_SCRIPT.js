@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[1].position.y", "sph.particle[1].position.x"]}]);
+Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[1].position.z","sph.particle[1].position.y", "sph.particle[1].position.x"]}]);
 
 Simulation.startWatch();
 
@@ -10,10 +10,11 @@ Plot1.setOptions(options)
 
 Plot1.setPosition(194,140);
 
+Plot1.setName("Particle 1 coordinates")
+
 Simulation.start();
 
 Plot1.plotState("particle[1].position.x");
-
 Plot1.plotState("particle[1].position.y");
-
+Plot1.plotState("particle[1].position.z");
 
