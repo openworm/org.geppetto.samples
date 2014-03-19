@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].v", "example1.hhpop[0].spiking"]}]);
+Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].v", "example1.hhpop[0].spiking","example1.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity","example1.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q", "example1.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q","example1.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"]}]);
 Simulation.startWatch();
 Simulation.start();
 
@@ -18,9 +18,6 @@ Plot1.plotState("hhpop[0].v");
 Plot1.plotState("hhpop[0].spiking");
 
 
-
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity"]}]);
-
 G.wait(100);
 
 G.addWidget(Widgets.PLOT);
@@ -34,9 +31,6 @@ Plot2.setOptions(options);
 Plot2.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.gDensity");
 
 //Adding Plot 3
-
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q", "example1.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q"]}]);
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"]}]);
 
 G.wait(100);
 
