@@ -25,7 +25,7 @@ G.addWidget(Widgets.PLOT);
 options = {yaxis:{min:0,max:250},xaxis:{min:0,max:400,show:false}};
 
 Plot2.setPosition(113, 336);
-Plot2.setSize(200,352)
+Plot2.setSize(245,352)
 Plot2.setName("Conductance Density");
 Plot2.setOptions(options);
 Plot2.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.gDensity");
