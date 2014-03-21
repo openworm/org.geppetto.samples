@@ -46,6 +46,7 @@ Plot3.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q");
 Plot3.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q");
 Plot3.plotState("hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q");
 
+Simulation.addBrightnessFunction("hhcell", "hhpop[0].v", function(x){return (x+0.06)/0.06;});
 
 
 
