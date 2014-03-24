@@ -15,11 +15,11 @@ Plot1.setPosition(114,169);
 
 Simulation.start();
 
-Plot1.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q");
+Plot1.plotData("hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q");
 
-Plot1.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q");
+Plot1.plotData("hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q");
 
-Plot1.plotState("hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q");
+Plot1.plotData("hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q");
 
 G.showConsole(true);
 
@@ -39,7 +39,7 @@ options = {yaxis:{min:0,max:250},xaxis:{min:0,max:400,show:false}};
 
 Plot2.setOptions(options);
 
-Plot2.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.gDensity");
+Plot2.plotData("hhpop[0].bioPhys1.membraneProperties.naChans.gDensity");
 
 G.wait(1000);
 
@@ -53,9 +53,9 @@ Plot3.setOptions(options);
 
 Plot3.setPosition(679, 401);
 
-Plot3.plotState("hhpop[0].spiking");
+Plot3.plotData("hhpop[0].spiking");
 
-Plot3.plotState("hhpop[0].debugVal");
+Plot3.plotData("hhpop[0].debugVal");
 
 Plot3.setName("Hodgkin-Huxley Spiking debug");
 
@@ -71,6 +71,6 @@ options = {yaxis:{min:-.1,max:0.1},xaxis:{min:0,max:160,show:false}};
 
 Plot4.setOptions(options);
 
-Plot4.plotState("hhpop[0].v");
+Plot4.plotData("hhpop[0].v");
 
-Plot4.plotState("hhpop[0].spiking");
+Plot4.plotData("hhpop[0].spiking");
