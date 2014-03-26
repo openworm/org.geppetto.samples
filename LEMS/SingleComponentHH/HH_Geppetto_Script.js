@@ -14,8 +14,8 @@ options = {yaxis:{min:-.1,max:0.1},xaxis:{min:0,max:400,show:false}};
 Plot1.setOptions(options);
 Plot1.setPosition(113, 90);
 Plot1.setSize(230,352)
-Plot1.plotState("hhpop[0].v");
-Plot1.plotState("hhpop[0].spiking");
+Plot1.plotData(hhpop[0].v);
+Plot1.plotData(hhpop[0].spiking);
 
 
 G.wait(100);
@@ -28,7 +28,7 @@ Plot2.setPosition(113, 336);
 Plot2.setSize(245,352)
 Plot2.setName("Conductance Density");
 Plot2.setOptions(options);
-Plot2.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.gDensity");
+Plot2.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.gDensity);
 
 //Adding Plot 3
 
@@ -42,13 +42,8 @@ Plot3.setOptions(options)
 Plot3.setName("Gating Variables");
 Plot3.setPosition(710,90);
 Plot3.setSize(285,352)
-Plot3.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q");
-Plot3.plotState("hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q");
-Plot3.plotState("hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q");
+Plot3.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q);
+Plot3.plotData(hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q);
+Plot3.plotData(hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q);
 
 window.setTimeout(function(){Simulation.addBrightnessFunction("hhcell", "hhpop[0].v", function(x){return (x+0.06)/0.06;})},500);
-
-
-
-
-
