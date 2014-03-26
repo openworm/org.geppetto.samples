@@ -14,6 +14,6 @@ Plot1.setName("Particle 1 coordinates")
 
 Simulation.start();
 
-Plot1.plotData(particle[1].position.x);
-Plot1.plotData(particle[1].position.y);
-Plot1.plotData(particle[1].position.z);
+Plot1.plotData("particle[1].position.x");
+Plot1.plotData("particle[1].position.y");
+Plot1.plotData("particle[1].position.z");
