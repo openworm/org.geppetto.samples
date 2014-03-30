@@ -32,7 +32,7 @@ Plot2.plotData("hhpop[0].bioPhys1.membraneProperties.naChans.gDensity");
 
 //Adding Plot 3
 
-G.wait(100);
+G.wait(100); 
 
 G.addWidget(Widgets.PLOT);
 

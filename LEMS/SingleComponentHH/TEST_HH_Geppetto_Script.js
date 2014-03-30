@@ -1,7 +1,7 @@
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q", "example1.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q"]}]);
 Simulation.addWatchLists([{name:"hhvars",variablePaths:["example1.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"]}]);
 
-Simulation.startWatch();
+Simulation.startWatch(); 
 
 G.addWidget(Widgets.PLOT);
 
