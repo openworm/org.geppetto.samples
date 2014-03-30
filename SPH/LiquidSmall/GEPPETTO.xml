@@ -10,4 +10,5 @@
     <tns:id>sph</tns:id>
   </tns:aspects>
   <tns:name>sph</tns:name>
+  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/newSerializer/SPH/LiquidSmall/TEST_LIQUID_SMALL_SCRIPT.js</tns:script>
 </tns:simulation>

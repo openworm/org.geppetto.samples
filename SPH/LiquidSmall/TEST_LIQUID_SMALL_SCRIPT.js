@@ -3,7 +3,7 @@ Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[1].positi
 Simulation.startWatch();
 
 G.addWidget(Widgets.PLOT);
-
+ 
 var options = {yaxis:{min:0,max:15},xaxis:{min:0,max:300,show:false}};
 
 Plot1.setOptions(options)
@@ -14,7 +14,6 @@ Plot1.setName("Particle 1 coordinates")
 
 Simulation.start();
 
-Plot1.plotState("particle[1].position.x");
-Plot1.plotState("particle[1].position.y");
-Plot1.plotState("particle[1].position.z");
-
+Plot1.plotData("particle[1].position.x");
+Plot1.plotData("particle[1].position.y");
+Plot1.plotData("particle[1].position.z");
