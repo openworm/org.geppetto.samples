@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"sphvars",variablePaths:["sample.fluid..particle[1].position.z","sample.fluid..particle[1].position.y", "sample.fluid..particle[1].position.x"]}]);
+Simulation.addWatchLists([{name:"sphvars",variablePaths:["sample.fluid.particle[1].position.z","sample.fluid..particle[1].position.y", "sample.fluid..particle[1].position.x"]}]);
 
 Simulation.startWatch();
 
