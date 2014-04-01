@@ -2,9 +2,9 @@
 <tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
 
 	<tns:entity>
-		<tns:id>hhcell</tns:id>
+		<tns:id>sample</tns:id>
 		<tns:aspect>
-			<tns:id>electrical</tns:id>
+			<tns:id>fluid</tns:id>
 			<tns:simulator>
 				<tns:simulatorId>sphSimulator</tns:simulatorId>
 			</tns:simulator>
