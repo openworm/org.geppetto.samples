@@ -46,4 +46,4 @@ Plot3.plotData("hhcell.electrical.hhpop[0].bioPhys1.membraneProperties.naChans.n
 Plot3.plotData("hhcell.electrical.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q");
 Plot3.plotData("hhcell.electrical.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q");
 
-window.setTimeout(function(){Simulation.addBrightnessFunction("hhcell", "hhpop[0].v", function(x){return (x+0.06)/0.06;})},500);
+window.setTimeout(function(){Simulation.addBrightnessFunction("hhcell.electrical", "hhcell.electrical.hhpop[0].v", function(x){return (x+0.06)/0.06;})},500);
