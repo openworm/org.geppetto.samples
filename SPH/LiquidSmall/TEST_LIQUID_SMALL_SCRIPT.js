@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"sphvars",variablePaths:["sph.particle[1].position.z","sph.particle[1].position.y", "sph.particle[1].position.x"]}]);
+Simulation.addWatchLists([{name:"sphvars",variablePaths:["sample.fluid.particle[1].position.z","sample.fluid.particle[1].position.y", "sample.fluid.particle[1].position.x"]}]);
 
 Simulation.startWatch();
 
@@ -14,6 +14,6 @@ Plot1.setName("Particle 1 coordinates")
 
 Simulation.start();
 
-Plot1.plotData("particle[1].position.x");
-Plot1.plotData("particle[1].position.y");
-Plot1.plotData("particle[1].position.z");
+Plot1.plotData("sample.fluid.particle[1].position.x");
+Plot1.plotData("sample.fluid.particle[1].position.y");
+Plot1.plotData("sample.fluid.particle[1].position.z");

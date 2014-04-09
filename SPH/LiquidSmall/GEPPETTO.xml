@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openworm.org/simulationSchema ../../src/main/resources/schema/simulationSchema.xsd ">
-  <tns:configuration>
-    <tns:outputFormat>RAW</tns:outputFormat>
-  </tns:configuration>
-  <tns:aspects>
-    <tns:modelInterpreter>sphModelInterpreter</tns:modelInterpreter>
-      <tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/SPH/LiquidSmall/sphModel_liquid_780.xml</tns:modelURL>
-    <tns:simulator>sphSimulator</tns:simulator>
-    <tns:id>sph</tns:id>
-  </tns:aspects>
-  <tns:name>sph</tns:name>
-  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/newSerializer/SPH/LiquidSmall/TEST_LIQUID_SMALL_SCRIPT.js</tns:script>
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
+
+	<tns:entity>
+		<tns:id>sample</tns:id>
+		<tns:aspect>
+			<tns:id>fluid</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>sphSimulator</tns:simulatorId>
+			</tns:simulator> 
+			<tns:model>
+    				<tns:modelInterpreterId>sphModelInterpreter</tns:modelInterpreterId>
+    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/SPH/LiquidSmall/sphModel_liquid_780.xml</tns:modelURL>
+			</tns:model>
+		</tns:aspect>		
+	</tns:entity>
+	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/replay/SPH/LiquidSmall/TEST_LIQUID_SMALL_SCRIPT.js</tns:script>
+	
 </tns:simulation>
