@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["hhcell.electrical.hhpop[0].v", "hhcell.electrical.hhpop[0].spiking","hhcell.electrical.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity","hhcell.electrical.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q", "hhcell.electrical.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q","hhcell.electrical.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"]}]);
+Simulation.addWatchLists([{name:"hhvars",variablePaths:["hhcell.electrical.hhpop[0].v", "hhcell.electrical.hhpop[0].spiking"]}]);
 Simulation.startWatch();
 Simulation.start();
 
