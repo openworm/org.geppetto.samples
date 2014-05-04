@@ -14,9 +14,9 @@
 			</tns:model>
 		</tns:aspect>
 		<tns:position>
-			<tns:x>0</tns:x>
-			<tns:y>100</tns:y>
-			<tns:z>300</tns:z>
+			<tns:x>-300</tns:x>
+			<tns:y>300</tns:y>
+			<tns:z>-200</tns:z>
 		</tns:position>				
 	</tns:entity>
 	<tns:entity>
