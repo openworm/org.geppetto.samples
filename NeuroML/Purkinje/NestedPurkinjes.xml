@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
-
+<tns:entities>
 	<tns:entity>
 		<tns:id>purkinje_1</tns:id>
 		<tns:aspect>
@@ -42,4 +42,5 @@
 			</tns:position>
 		</tns:entity>
 	</tns:entity>
+</tns:entities>
 </tns:simulation>
