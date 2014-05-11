@@ -3,10 +3,13 @@
   <tns:entity>
     <tns:id>c302</tns:id>
     <tns:aspect>
-      <tns:id>electrical</tns:id>
-      <tns:model>
-        <tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
-        <tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/LEMS/C302/LEMS_c302_A.xml</tns:modelURL>
+			<tns:id>electrical</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>jLemsSimulator</tns:simulatorId>
+			</tns:simulator>
+			<tns:model>
+    				<tns:modelInterpreterId>lemsModelInterpreter</tns:modelInterpreterId>
+        <tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/LEMS/C302/LEMS_c302_A.xml</tns:modelURL>
       </tns:model>
     </tns:aspect>
   </tns:entity>
