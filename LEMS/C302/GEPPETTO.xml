@@ -10,4 +10,5 @@
       </tns:model>
     </tns:aspect>
   </tns:entity>
+  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/LEMS/C302/script.js</tns:script>
 </tns:simulation>
