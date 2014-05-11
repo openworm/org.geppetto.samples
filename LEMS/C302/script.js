@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["c302.electrical.ADAR.0.generic_iaf_cell.v","c302.electrical.ADAL.0.generic_iaf_cell.v","c302.electrical.BDUR.0.generic_iaf_cell.v","c302.electrical.I1R.0.generic_iaf_cell.v","c302.electrical.I2L.0.generic_iaf_cell.v","c302.electrical.PVDR.0.generic_iaf_cell.v"]}]);
+Simulation.addWatchLists([{name:"hhvars",variablePaths:["c302.electrical.adal.0.generic_iaf_cell.v","c302.electrical.adal.0.generic_iaf_cell.v","c302.electrical.bdur.0.generic_iaf_cell.v","c302.electrical.i1r.0.generic_iaf_cell.v","c302.electrical.i2l.0.generic_iaf_cell.v","c302.electrical.pvdr.0.generic_iaf_cell.v"]}]);
 Simulation.startWatch();
 Simulation.start();
 
