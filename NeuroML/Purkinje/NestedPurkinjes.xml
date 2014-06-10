@@ -8,10 +8,8 @@
 				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
 			</tns:simulator>
 			<tns:model>
-				<tns:modelInterpreterId>neuroMLModelInterpreter
-				</tns:modelInterpreterId>
-				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml
-				</tns:modelURL>
+				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
+				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
 		<tns:position>
@@ -28,10 +26,8 @@
 					<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
 				</tns:simulator>
 				<tns:model>
-					<tns:modelInterpreterId>neuroMLModelInterpreter
-					</tns:modelInterpreterId>
-					<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml
-					</tns:modelURL>
+					<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
+					<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
 				</tns:model>
 			</tns:aspect>
 			<tns:position>
