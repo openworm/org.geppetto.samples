@@ -1,0 +1,46 @@
+<Lems>
+
+
+<!-- Specify which component to run -->
+<Target component="sim1"/>
+
+<!-- Include core NeuroML2 ComponentType definitions -->
+   <Include url="https://raw.github.com/NeuroML/NeuroML2/master/NeuroML2CoreTypes/NeuroML2CoreTypes.xml"/>
+    <Include file="/Simulation.xml"/>
+
+<Include file="https://raw.githubusercontent.com/OpenSourceBrain/HindmarshRose1984/master/NeuroML2/HindmarshRose3d.xml"/>
+
+<!-- parameter set for chaotic busting -->
+<hindmarshRoseCell id="hr_chaotic" a="1.0" b="2.8" c="1.0"
+    d="5.0" s="4.0" I="3.94" x1="-1.6" r="0.01"
+    x0="-1.6" y0="-1.0" z0="1.0"/>
+
+
+<network id="net1">
+    <population id="hr_chaotic_pop" component="hr_chaotic" size="1"/>
+</network>
+
+
+<Simulation id="sim1" length="2000s" step="0.01s" target="net1" method="rk4">
+
+    <Display id="d1" title="x (membrane potential) timeseries"
+        timeScale="1s" xmin="-100" xmax="2100" ymin="-2" ymax="2">
+        <Line id ="x" quantity="hr_chaotic_pop[0]/x" scale="1"
+            color="#000000" timeScale="1s"/>
+    </Display>
+
+    <Display id="d2" title="y timeseries"
+        timeScale="1s" xmin="-100" xmax="2100" ymin="-6" ymax="1">
+        <Line id ="y" quantity="hr_chaotic_pop[0]/y" scale="1"
+            color="#0000ff" timeScale="1s"/>
+    </Display>
+
+    <Display id="d3" title="z timeseries"
+        timeScale="1s" xmin="-100" xmax="2100" ymin="3" ymax="4">
+        <Line id ="z" quantity="hr_chaotic_pop[0]/z" scale="1"
+            color="#00ff00" timeScale="1s"/>
+    </Display>
+    
+</Simulation>
+
+</Lems>
