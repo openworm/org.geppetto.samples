@@ -13,6 +13,17 @@
     				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
+		<tns:id>purkinje_2</tns:id>
+		<tns:aspect>
+			<tns:id>electrical</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+			</tns:simulator>
+			<tns:model>
+    				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
+    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
+			</tns:model>
+		</tns:aspect>
 		<tns:position>
 			<tns:x>-300</tns:x>
 			<tns:y>300</tns:y>
@@ -20,7 +31,7 @@
 		</tns:position>				
 	</tns:entity>
 	<tns:entity>
-		<tns:id>small liquid</tns:id>
+		<tns:id>small_liquid</tns:id>
 		<tns:aspect>
 			<tns:id>fluid</tns:id>
 			<tns:simulator>
@@ -31,6 +42,16 @@
     				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/SPH/LiquidSmall/sphModel_liquid_780.xml</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
+		<tns:aspect>
+			<tns:id>fluid2</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>sphSimulator</tns:simulatorId>
+			</tns:simulator> 
+			<tns:model>
+    				<tns:modelInterpreterId>sphModelInterpreter</tns:modelInterpreterId>
+    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/SPH/ElasticSmall/sphModel_elastic_1575.xml</tns:modelURL>
+			</tns:model>
+		</tns:aspect>	
 		<tns:position>
 			<tns:x>300</tns:x>
 			<tns:y>200</tns:y>
