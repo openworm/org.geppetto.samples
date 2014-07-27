@@ -2,7 +2,7 @@
 <tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
  
 	<tns:entity>
-		<tns:id>purkinje_1</tns:id>
+		<tns:id>Purkinje</tns:id>
 		<tns:aspect>
 			<tns:id>electrical</tns:id>
 			<tns:simulator>
@@ -14,7 +14,7 @@
 			</tns:model>
 		</tns:aspect>
 		<tns:aspect>
-			<tns:id>electrical2</tns:id>
+			<tns:id>fluid</tns:id>
 			<tns:simulator>
 				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
 			</tns:simulator>
@@ -25,12 +25,12 @@
 		</tns:aspect>
 		<tns:position>
 			<tns:x>-300</tns:x>
-			<tns:y>300</tns:y>
-			<tns:z>-200</tns:z>
+			<tns:y>100</tns:y>
+			<tns:z>100</tns:z>
 		</tns:position>				
 	</tns:entity>
 	<tns:entity>
-		<tns:id>small_liquid</tns:id>
+		<tns:id>SmallLiquid</tns:id>
 		<tns:aspect>
 			<tns:id>fluid</tns:id>
 			<tns:simulator>
@@ -41,8 +41,34 @@
     				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/SPH/LiquidSmall/sphModel_liquid_780.xml</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
+		<tns:position>
+			<tns:x>300</tns:x>
+			<tns:y>100</tns:y>
+			<tns:z>100</tns:z>
+		</tns:position>		
+	</tns:entity>
+	<tns:entity>
+	<tns:id>C302</tns:id>
+    <tns:aspect>
+			<tns:id>electrical</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>jLemsSimulator</tns:simulatorId>
+			</tns:simulator>
+			<tns:model>
+    				<tns:modelInterpreterId>lemsModelInterpreter</tns:modelInterpreterId>
+        <tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/master/LEMS/C302/LEMS_c302_A.xml</tns:modelURL>
+      </tns:model>
+    </tns:aspect>
+    <tns:position>
+			<tns:x>150</tns:x>
+			<tns:y>200</tns:y>
+			<tns:z>100</tns:z>
+	</tns:position>	
+  	</tns:entity>
+  	<tns:entity>
+		<tns:id>ElasticSmall</tns:id>
 		<tns:aspect>
-			<tns:id>fluid2</tns:id>
+			<tns:id>fluid</tns:id>
 			<tns:simulator>
 				<tns:simulatorId>sphSimulator</tns:simulatorId>
 			</tns:simulator> 
@@ -50,11 +76,6 @@
     				<tns:modelInterpreterId>sphModelInterpreter</tns:modelInterpreterId>
     				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/SPH/ElasticSmall/sphModel_elastic_1575.xml</tns:modelURL>
 			</tns:model>
-		</tns:aspect>	
-		<tns:position>
-			<tns:x>300</tns:x>
-			<tns:y>200</tns:y>
-			<tns:z>100</tns:z>
-		</tns:position>		
+		</tns:aspect>		
 	</tns:entity>
 </tns:simulation>
