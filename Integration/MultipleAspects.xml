@@ -13,9 +13,8 @@
     				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
-		<tns:id>purkinje_2</tns:id>
 		<tns:aspect>
-			<tns:id>electrical</tns:id>
+			<tns:id>electrical2</tns:id>
 			<tns:simulator>
 				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
 			</tns:simulator>
