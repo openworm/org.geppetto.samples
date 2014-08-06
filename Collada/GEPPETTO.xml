@@ -5,6 +5,9 @@
 		<tns:id>monster</tns:id>
 		<tns:aspect>
 			<tns:id>visual</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>colladaSimulator</tns:simulatorId>
+			</tns:simulator> 
 			<tns:model>
     				<tns:modelInterpreterId>colladaModelInterpreter</tns:modelInterpreterId>
     				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/master/Collada/atom.dae</tns:modelURL>
