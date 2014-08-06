@@ -10,7 +10,7 @@
 			</tns:simulator> 
 			<tns:model>
     				<tns:modelInterpreterId>objModelInterpreter</tns:modelInterpreterId>
-    				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/master/Obj/eyes.obj</tns:modelURL>
+    				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/refactortrees/Obj/eyes.obj</tns:modelURL>
 			</tns:model>
 		</tns:aspect>		
 	</tns:entity>
