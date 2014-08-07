@@ -14,6 +14,6 @@
 			</tns:model>
 		</tns:aspect>		
 	</tns:entity>
-	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/master/LEMS/HindmarshRose/HR_Geppetto_Script.js</tns:script>
+	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/LEMS/HindmarshRose/HR_Geppetto_Script.js</tns:script>
 
 </tns:simulation>
