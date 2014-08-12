@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
+	<tns:entity>
+		<tns:id>SmallLiquid</tns:id>
+		<tns:aspect>
+			<tns:id>fluid</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>sphSimulator</tns:simulatorId>
+			</tns:simulator> 
+			<tns:model>
+    				<tns:modelInterpreterId>sphModelInterpreter</tns:modelInterpreterId>
+    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/SPH/LiquidSmall/sphModel_liquid_780.xml</tns:modelURL>
+			</tns:model>
+		</tns:aspect>
+		<tns:position>
+			<tns:x>300</tns:x>
+			<tns:y>100</tns:y>
+			<tns:z>100</tns:z>
+		</tns:position>		
+	</tns:entity>
+  	<tns:entity>
+		<tns:id>ElasticSmall</tns:id>
+		<tns:aspect>
+			<tns:id>fluid</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>sphSimulator</tns:simulatorId>
+			</tns:simulator> 
+			<tns:model>
+    				<tns:modelInterpreterId>sphModelInterpreter</tns:modelInterpreterId>
+    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/SPH/ElasticSmall/sphModel_elastic_1575.xml</tns:modelURL>
+			</tns:model>
+		</tns:aspect>		
+	</tns:entity>
+</tns:simulation>
