@@ -14,7 +14,7 @@
 			</tns:model>
 		</tns:aspect>		
 	</tns:entity>
-	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/LEMS/SingleComponentHH/HH_Geppetto_Script.js</tns:script>
+	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/referencing_variables/LEMS/SingleComponentHH/HH_Geppetto_Script.js</tns:script>
 	
 </tns:simulation>
 
