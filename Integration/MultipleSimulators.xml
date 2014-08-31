@@ -17,7 +17,7 @@
 			</tns:model>
 		</tns:aspect>
 		<tns:entity>
-			<tns:id>SmallLiquid</tns:id>
+			<tns:id>anotherPurkinje</tns:id>
 			<tns:aspect>
 			<tns:id>electrical</tns:id>
 			<tns:simulator>
