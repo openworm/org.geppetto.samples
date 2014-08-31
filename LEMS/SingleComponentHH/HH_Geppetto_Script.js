@@ -46,7 +46,7 @@ Plot3.plotData(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProper
 Plot3.plotData(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q);
 Plot3.plotData(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q);
 
-Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membranePropertiesnaChans.na.h.q,"The H.Q Variable");
+Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q,"The H.Q Variable");
 Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q,"The M.Q Variable");
 Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q,"The N.Q Variable");
 
