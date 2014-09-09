@@ -10,7 +10,7 @@
       <tns:model>
         <tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
         <tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
-        <tns:recordingURL>https://dl.dropboxusercontent.com/u/7538688/recording/recording_small.h5?dl=1</tns:recordingURL>
+        <tns:recordingURL>https://github.com/openworm/org.geppetto.samples/raw/development/Recording/recording_small.h5</tns:recordingURL>
       </tns:model>
     </tns:aspect>
   </tns:entity>
