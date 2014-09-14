@@ -46,9 +46,9 @@ Plot3.plotData(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProper
 Plot3.plotData(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q);
 Plot3.plotData(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q);
 
-Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q,"The H.Q Variable");
-Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q,"The M.Q Variable");
-Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q,"The N.Q Variable");
+Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q,"Sodium h.q");
+Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q,"Sodium m.q");
+Plot3.setLegend(hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q,"Potassium n.q");
 
 G.addWidget(Widgets.POPUP);
 Popup1.setMessage("The Hodgkin-Huxley model (or conductance-based model) is a mathematical model that describes how action potentials in neurons are initiated and propagated. It is a set of nonlinear differential equations that approximates the electrical characteristics of excitable cells such as neurons.");
