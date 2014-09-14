@@ -37,7 +37,7 @@
 		</tns:entity>
 	</tns:entity>
 	<tns:entity>
-		<tns:id>SmallLiquid</tns:id>
+		<tns:id>sample</tns:id>
 		<tns:aspect>
 			<tns:id>fluid</tns:id>
 			<tns:simulator>
