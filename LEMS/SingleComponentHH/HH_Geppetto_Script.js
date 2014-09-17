@@ -56,4 +56,4 @@ Popup1.setName("Description");
 Popup1.setPosition(710,398);
 Popup1.setSize(160,465)
 
-window.setTimeout(function(){Simulation.addBrightnessFunction(hhcell.electrical, hhcell.electrical.SimulationTree.hhpop[0].v, function(x){return (x+0.06)/0.06;})},500);
+Simulation.addBrightnessFunction(hhcell.electrical, hhcell.electrical.SimulationTree.hhpop[0].v, function(x){return (x+0.06)/0.06;})};
