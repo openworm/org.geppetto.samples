@@ -17,7 +17,12 @@
 			<tns:x>-300</tns:x>
 			<tns:y>300</tns:y>
 			<tns:z>-200</tns:z>
-		</tns:position>				
+		</tns:position>
+		<tns:connection>
+			<tns:id>connection_1</tns:id>
+			<tns:entityId>purkinje_1</tns:entityId>
+			<tns:type>TO</tns:type>
+		</tns:connection>				
 	</tns:entity>
 	<tns:entity>
 		<tns:id>purkinje_2</tns:id>
@@ -36,5 +41,10 @@
 			<tns:y>200</tns:y>
 			<tns:z>100</tns:z>
 		</tns:position>		
+		<tns:connection>
+			<tns:id>connection_2</tns:id>
+			<tns:entityId>purkinje_2</tns:entityId>
+			<tns:type>FROM</tns:type>
+		</tns:connection>
 	</tns:entity>
 </tns:simulation>
