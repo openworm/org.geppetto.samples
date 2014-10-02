@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
- 
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
+
 	<tns:entity>
 		<tns:id>purkinje_1</tns:id>
 		<tns:aspect>
@@ -9,8 +11,10 @@
 				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
 			</tns:simulator>
 			<tns:model>
-    				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
-    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
+				<tns:modelInterpreterId>neuroMLModelInterpreter
+				</tns:modelInterpreterId>
+				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml
+				</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
 		<tns:position>
@@ -24,10 +28,11 @@
 			<tns:type>TO</tns:type>
 		</tns:connection>
 		<tns:connection>
-			<tns:id>connection_1</tns:id>
-			<tns:entityInstancePath>purkinje_2.purkinje_3</tns:entityInstancePath>
+			<tns:id>connection_2</tns:id>
+			<tns:entityInstancePath>purkinje_2.purkinje_3
+			</tns:entityInstancePath>
 			<tns:type>TO</tns:type>
-		</tns:connection>				
+		</tns:connection>
 	</tns:entity>
 	<tns:entity>
 		<tns:id>purkinje_2</tns:id>
@@ -37,42 +42,106 @@
 				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
 			</tns:simulator>
 			<tns:model>
-    				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
-    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
+				<tns:modelInterpreterId>neuroMLModelInterpreter
+				</tns:modelInterpreterId>
+				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml
+				</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
 		<tns:position>
 			<tns:x>300</tns:x>
 			<tns:y>200</tns:y>
 			<tns:z>100</tns:z>
-		</tns:position>		
-		<tns:connection>
-			<tns:id>connection_2</tns:id>
-			<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
-			<tns:type>FROM</tns:type>
-		</tns:connection>
-		<tns:entity>
-		<tns:id>purkinje_3</tns:id>
-		<tns:aspect>
-			<tns:id>electrical</tns:id>
-			<tns:simulator>
-				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
-			</tns:simulator>
-			<tns:model>
-    				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
-    				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
-			</tns:model>
-		</tns:aspect>
-		<tns:position>
-			<tns:x>300</tns:x>
-			<tns:y>0</tns:y>
-			<tns:z>-100</tns:z>
-		</tns:position>		
+		</tns:position>
 		<tns:connection>
 			<tns:id>connection_3</tns:id>
 			<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
 			<tns:type>FROM</tns:type>
 		</tns:connection>
-	</tns:entity>
+		<tns:entity>
+			<tns:id>purkinje_3</tns:id>
+			<tns:aspect>
+				<tns:id>electrical</tns:id>
+				<tns:simulator>
+					<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+				</tns:simulator>
+				<tns:model>
+					<tns:modelInterpreterId>neuroMLModelInterpreter
+					</tns:modelInterpreterId>
+					<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml
+					</tns:modelURL>
+				</tns:model>
+			</tns:aspect>
+			<tns:position>
+				<tns:x>300</tns:x>
+				<tns:y>0</tns:y>
+				<tns:z>-100</tns:z>
+			</tns:position>
+			<tns:connection>
+				<tns:id>connection_4</tns:id>
+				<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
+				<tns:type>FROM</tns:type>
+			</tns:connection>
+			<tns:connection>
+				<tns:id>connection_5</tns:id>
+				<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
+				<tns:type>TO</tns:type>
+			</tns:connection>
+		</tns:entity>
+		<tns:entity>
+			<tns:id>purkinje_4</tns:id>
+			<tns:aspect>
+				<tns:id>electrical</tns:id>
+				<tns:simulator>
+					<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+				</tns:simulator>
+				<tns:model>
+					<tns:modelInterpreterId>neuroMLModelInterpreter
+					</tns:modelInterpreterId>
+					<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml
+					</tns:modelURL>
+				</tns:model>
+			</tns:aspect>
+			<tns:position>
+				<tns:x>200</tns:x>
+				<tns:y>0</tns:y>
+				<tns:z>-100</tns:z>
+			</tns:position>
+			<tns:connection>
+				<tns:id>connection_6</tns:id>
+				<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
+				<tns:type>FROM</tns:type>
+			</tns:connection>
+			<tns:connection>
+				<tns:id>connection_8</tns:id>
+				<tns:entityInstancePath>purkinje_2.purkinje_5</tns:entityInstancePath>
+				<tns:type>TO</tns:type>
+			</tns:connection>
+		</tns:entity>
+		<tns:entity>
+			<tns:id>purkinje_5</tns:id>
+			<tns:aspect>
+				<tns:id>electrical</tns:id>
+				<tns:simulator>
+					<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+				</tns:simulator>
+				<tns:model>
+					<tns:modelInterpreterId>neuroMLModelInterpreter
+					</tns:modelInterpreterId>
+					<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml
+					</tns:modelURL>
+				</tns:model>
+			</tns:aspect>
+			<tns:position>
+				<tns:x>100</tns:x>
+				<tns:y>0</tns:y>
+				<tns:z>-100</tns:z>
+			</tns:position>
+			<tns:connection>
+				<tns:id>connection_7</tns:id>
+				<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
+				<tns:type>FROM</tns:type>
+			</tns:connection>
+		</tns:entity>
 	</tns:entity>
 </tns:simulation>
