@@ -8,7 +8,7 @@
    <Include url="https://raw.github.com/NeuroML/NeuroML2/master/NeuroML2CoreTypes/NeuroML2CoreTypes.xml"/>
     <Include file="/Simulation.xml"/>
 
-<Include file="https://raw.githubusercontent.com/OpenSourceBrain/HindmarshRose1984/master/NeuroML2/HindmarshRose3d.xml"/>
+<Include url="https://raw.githubusercontent.com/OpenSourceBrain/HindmarshRose1984/master/NeuroML2/HindmarshRose3d.xml"/>
 
 <!-- parameter set for chaotic busting -->
 <hindmarshRoseCell id="hr_chaotic" a="1.0" b="2.8" c="1.0"
