@@ -100,7 +100,7 @@
 			</tns:position>
 			<tns:connection>
 				<tns:id>connection_6</tns:id>
-				<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
+				<tns:entityInstancePath>purkinje_2.purkinje_3</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
 			</tns:connection>
 			<tns:connection>
