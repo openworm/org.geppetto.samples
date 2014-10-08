@@ -60,15 +60,6 @@ Parameters and setting used to generate this network:
 
         </Display>
 
-        <OutputFile id="of0" fileName="c302_A_Social.dat">
-            <OutputColumn id="ASHR_v" quantity="ASHR/0/generic_iaf_cell/v"/>
-            <OutputColumn id="ASKR_v" quantity="ASKR/0/generic_iaf_cell/v"/>
-            <OutputColumn id="AWBR_v" quantity="AWBR/0/generic_iaf_cell/v"/>
-            <OutputColumn id="IL2R_v" quantity="IL2R/0/generic_iaf_cell/v"/>
-            <OutputColumn id="RMGR_v" quantity="RMGR/0/generic_iaf_cell/v"/>
-            <OutputColumn id="RMHR_v" quantity="RMHR/0/generic_iaf_cell/v"/>
-            <OutputColumn id="URXR_v" quantity="URXR/0/generic_iaf_cell/v"/>
-        </OutputFile>
 
     </Simulation>
 
