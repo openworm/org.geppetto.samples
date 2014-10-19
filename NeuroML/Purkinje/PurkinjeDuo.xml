@@ -31,13 +31,13 @@
 					<tns:id>reference_1</tns:id>
 				</tns:VisualObjectReference>
 			</tns:visualObjectReferences>
-			<tns:CustomProperties>
+			<tns:customProperties>
 				<tns:CustomProperty>
 					<tns:id>Synapse</tns:id>
 					<tns:text>Synaptic connection</tns:text>
 					<tns:name>synaptic</tns:name>
 				</tns:CustomProperty>
-			</tns:CustomProperties>
+			</tns:customProperties>
 		</tns:connection>
 		<tns:connection>
 			<tns:id>connection_2</tns:id>
