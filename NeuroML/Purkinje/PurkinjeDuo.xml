@@ -24,6 +24,20 @@
 			<tns:id>connection_1</tns:id>
 			<tns:entityInstancePath>purkinje_2</tns:entityInstancePath>
 			<tns:type>TO</tns:type>
+			<tns:visualObjectReferences>
+				<tns:VisualObjectReference>
+					<tns:aspectInstancePath>purnkinje_2.electrical</tns:aspectInstancePath>
+					<tns:visualObjectID>purkinje</tns:visualObjectID>
+					<tns:id>reference_1</tns:id>
+				</tns:VisualObjectReference>
+			</tns:visualObjectReferences>
+			<tns:CustomProperties>
+				<tns:CustomProperty>
+					<tns:id>Synapse</tns:id>
+					<tns:text>Synaptic connection</tns:text>
+					<tns:name>synaptic</tns:name>
+				</tns:CustomProperty>
+			</tns:CustomProperties>
 		</tns:connection>
 		<tns:connection>
 			<tns:id>connection_2</tns:id>
