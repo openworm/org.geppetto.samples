@@ -26,7 +26,7 @@
 			<tns:type>TO</tns:type>
 			<tns:visualReference>
 				<tns:aspectInstancePath>purnkinje_2.electrical</tns:aspectInstancePath>
-				<tns:visualObjectID>purkinje</tns:visualObjectID>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
 				<tns:id>reference_1</tns:id>
 			</tns:visualReference>
 			<tns:customProperty>
@@ -39,6 +39,11 @@
 			<tns:id>connection_2</tns:id>
 			<tns:entityInstancePath>purkinje_2.purkinje_3</tns:entityInstancePath>
 			<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_2.purkinje_3.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 		</tns:connection>
 	</tns:entity>
 	<tns:entity>
@@ -62,6 +67,11 @@
 			<tns:id>connection_3</tns:id>
 			<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
 			<tns:type>FROM</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_1.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 		</tns:connection>
 		<tns:entity>
 			<tns:id>purkinje_3</tns:id>
@@ -84,11 +94,21 @@
 				<tns:id>connection_4</tns:id>
 				<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_1.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 			<tns:connection>
 				<tns:id>connection_5</tns:id>
 				<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
 				<tns:type>TO</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_2.purkinje_4.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 		</tns:entity>
 		<tns:entity>
@@ -112,16 +132,31 @@
 				<tns:id>connection_6</tns:id>
 				<tns:entityInstancePath>purkinje_2.purkinje_3</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_2.purkinje_3.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 			<tns:connection>
 				<tns:id>connection_12</tns:id>
 				<tns:entityInstancePath>purkinje_2.purkinje_5</tns:entityInstancePath>
 				<tns:type>TO</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_2.purkinje_5.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 			<tns:connection>
 				<tns:id>connection_11</tns:id>
 				<tns:entityInstancePath>purkinje_6</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_6.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 		</tns:entity>
 		<tns:entity>
@@ -145,6 +180,11 @@
 				<tns:id>connection_7</tns:id>
 				<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_2.purkinje_4.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 		</tns:entity>
 	</tns:entity>
@@ -169,6 +209,11 @@
 			<tns:id>connection_8</tns:id>
 			<tns:entityInstancePath>purkinje_3.purkinje_4</tns:entityInstancePath>
 			<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_3.purkinje_4.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 		</tns:connection>
 		<tns:entity>
 			<tns:id>purkinje_7</tns:id>
@@ -191,6 +236,11 @@
 				<tns:id>connection_9</tns:id>
 				<tns:entityInstancePath>purkinje_8</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_8.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 			</tns:entity>
 		</tns:entity>
@@ -215,6 +265,11 @@
 			<tns:id>connection_10</tns:id>
 			<tns:entityInstancePath>purkinje_6.purkinke_7</tns:entityInstancePath>
 			<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purnkinje_6.purkinje_7.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 		</tns:connection>
 		</tns:entity>
 </tns:simulation>
