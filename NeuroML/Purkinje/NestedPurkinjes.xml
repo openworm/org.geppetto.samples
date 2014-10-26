@@ -9,7 +9,7 @@
 			</tns:simulator>
 			<tns:model>
 				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
-				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk_copy.nml</tns:modelURL>
+				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
 		<tns:position>
@@ -37,7 +37,7 @@
 				</tns:simulator>
 				<tns:model>
 					<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
-					<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk_copy.nml</tns:modelURL>
+					<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
 				</tns:model>
 			</tns:aspect>
 			<tns:position>
