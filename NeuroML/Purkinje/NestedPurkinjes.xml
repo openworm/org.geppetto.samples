@@ -31,7 +31,7 @@
 	<tns:entity>
 			<tns:id>purkinje_2</tns:id>
 			<tns:aspect>
-				<tns:id>simulator</tns:id>
+				<tns:id>electrical</tns:id>
 				<tns:simulator>
 					<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
 				</tns:simulator>
