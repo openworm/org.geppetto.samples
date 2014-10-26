@@ -37,10 +37,10 @@
 		</tns:connection>
 		<tns:connection>
 			<tns:id>connection_3</tns:id>
-			<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
+			<tns:entityInstancePath>purkinje_2</tns:entityInstancePath>
 			<tns:type>FROM</tns:type>
 			<tns:visualReference>
-				<tns:aspectInstancePath>purkinje_1.electrical</tns:aspectInstancePath>
+				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
 				<tns:visualObjectID>Seg0_dend_3</tns:visualObjectID>
 				<tns:id>reference_1</tns:id>
 			</tns:visualReference>
