@@ -17,8 +17,18 @@
 			<tns:y>300</tns:y>
 			<tns:z>-200</tns:z>
 		</tns:position>
-
-		<tns:entity>
+		<tns:connection>
+				<tns:id>connection_1</tns:id>
+				<tns:entityInstancePath>purkinje_2</tns:entityInstancePath>
+				<tns:type>FROM</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>706</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+		</tns:connection>
+	</tns:entity>
+	<tns:entity>
 			<tns:id>purkinje_2</tns:id>
 			<tns:aspect>
 				<tns:id>simulator</tns:id>
@@ -35,6 +45,15 @@
 				<tns:y>200</tns:y>
 				<tns:z>100</tns:z>
 			</tns:position>
-		</tns:entity>
+			<tns:connection>
+				<tns:id>connection_2</tns:id>
+				<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
+				<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_1.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>3</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+		</tns:connection>
 	</tns:entity>
 </tns:simulation>
