@@ -23,7 +23,7 @@
 				<tns:type>FROM</tns:type>
 			<tns:visualReference>
 				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
-				<tns:visualObjectID>1</tns:visualObjectID>
+				<tns:visualObjectID>0</tns:visualObjectID>
 				<tns:id>reference_1</tns:id>
 			</tns:visualReference>
 			<tns:visualReference>
