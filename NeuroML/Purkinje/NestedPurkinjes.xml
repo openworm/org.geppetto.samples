@@ -23,8 +23,13 @@
 				<tns:type>FROM</tns:type>
 			<tns:visualReference>
 				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
-				<tns:visualObjectID>706</tns:visualObjectID>
+				<tns:visualObjectID>1</tns:visualObjectID>
 				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>706</tns:visualObjectID>
+				<tns:id>reference_2</tns:id>
 			</tns:visualReference>
 		</tns:connection>
 	</tns:entity>
