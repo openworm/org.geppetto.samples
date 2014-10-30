@@ -23,12 +23,12 @@
 				<tns:type>FROM</tns:type>
 			<tns:visualReference>
 				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
-				<tns:visualObjectID>0</tns:visualObjectID>
+				<tns:visualObjectID>purk2.0</tns:visualObjectID>
 				<tns:id>reference_1</tns:id>
 			</tns:visualReference>
 			<tns:visualReference>
 				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
-				<tns:visualObjectID>706</tns:visualObjectID>
+				<tns:visualObjectID>purk2.706</tns:visualObjectID>
 				<tns:id>reference_2</tns:id>
 			</tns:visualReference>
 		</tns:connection>
@@ -56,7 +56,7 @@
 				<tns:type>TO</tns:type>
 			<tns:visualReference>
 				<tns:aspectInstancePath>purkinje_1.electrical</tns:aspectInstancePath>
-				<tns:visualObjectID>3</tns:visualObjectID>
+				<tns:visualObjectID>purk2.4</tns:visualObjectID>
 				<tns:id>reference_1</tns:id>
 			</tns:visualReference>
 		</tns:connection>
