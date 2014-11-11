@@ -2,7 +2,7 @@
 <tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
 
 	<tns:entity>
-		<tns:id>purkinje</tns:id>
+		<tns:id>pyramidal</tns:id>
 		<tns:aspect>
 			<tns:id>electrical</tns:id>
 			<tns:simulator>
