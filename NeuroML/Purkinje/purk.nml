@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  http://neuroml.svn.sourceforge.net/viewvc/neuroml/NeuroML2/Schemas/NeuroML2/NeuroML_v2alpha.xsd" id="purk2">
 
-    <include href="Leak.nml"/>
-
-    <include href="KMnew2.nml"/>
-
-    <include href="NaF.nml"/>
-
-    <include href="KA.nml"/>
-
-    <include href="Kdr.nml"/>
-
-    <include href="Kh2.nml"/>
-
-    <include href="NaP.nml"/>
-
-    <include href="CaT.nml"/>
-
-    <include href="KC.nml"/>
-
-    <include href="cad.nml"/>
-
-    <include href="K2.nml"/>
-
-    <include href="CaP.nml"/>
-
-    <include href="Kh1.nml"/>
+  
 
     <cell id="purk2">
 
@@ -24626,7 +24602,7 @@
                 <include segmentGroup="dend_1491"/>
             </segmentGroup>
 
-            
+
         </morphology>
 
             <!--Adding the biophysical parameters-->
@@ -24869,5 +24845,5 @@
         </biophysicalProperties>
 
     </cell>
-    
+
 </neuroml>

@@ -24,11 +24,56 @@
 			<tns:id>connection_1</tns:id>
 			<tns:entityInstancePath>purkinje_2</tns:entityInstancePath>
 			<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>766</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+			<tns:customProperty>
+				<tns:id>Synapse</tns:id>
+				<tns:text>Synaptic connection</tns:text>
+				<tns:name>synaptic</tns:name>
+			</tns:customProperty>
+		</tns:connection>
+		<tns:connection>
+			<tns:id>connection_3</tns:id>
+			<tns:entityInstancePath>purkinje_2</tns:entityInstancePath>
+			<tns:type>FROM</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>901</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+			<tns:customProperty>
+				<tns:id>Synapse</tns:id>
+				<tns:text>Synaptic connection</tns:text>
+				<tns:name>synaptic</tns:name>
+			</tns:customProperty>
 		</tns:connection>
 		<tns:connection>
 			<tns:id>connection_2</tns:id>
 			<tns:entityInstancePath>purkinje_2.purkinje_3</tns:entityInstancePath>
 			<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.purkinje_3.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>900</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+		</tns:connection>
+		<tns:connection>
+			<tns:id>connection_4</tns:id>
+			<tns:entityInstancePath>purkinje_8</tns:entityInstancePath>
+			<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_8.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>903</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+			<tns:customProperty>
+				<tns:id>Synapse</tns:id>
+				<tns:text>Synaptic connection</tns:text>
+				<tns:name>synaptic</tns:name>
+			</tns:customProperty>
 		</tns:connection>
 	</tns:entity>
 	<tns:entity>
@@ -52,6 +97,11 @@
 			<tns:id>connection_3</tns:id>
 			<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
 			<tns:type>FROM</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_1.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>908</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 		</tns:connection>
 		<tns:entity>
 			<tns:id>purkinje_3</tns:id>
@@ -74,11 +124,21 @@
 				<tns:id>connection_4</tns:id>
 				<tns:entityInstancePath>purkinje_1</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_1.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>906</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 			<tns:connection>
 				<tns:id>connection_5</tns:id>
 				<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
 				<tns:type>TO</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.purkinje_4.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>706</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 		</tns:entity>
 		<tns:entity>
@@ -102,11 +162,31 @@
 				<tns:id>connection_6</tns:id>
 				<tns:entityInstancePath>purkinje_2.purkinje_3</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.purkinje_3.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>75</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 			<tns:connection>
-				<tns:id>connection_8</tns:id>
+				<tns:id>connection_12</tns:id>
 				<tns:entityInstancePath>purkinje_2.purkinje_5</tns:entityInstancePath>
 				<tns:type>TO</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.purkinje_5.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>76</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+			</tns:connection>
+			<tns:connection>
+				<tns:id>connection_11</tns:id>
+				<tns:entityInstancePath>purkinje_6</tns:entityInstancePath>
+				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_6.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>866</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 		</tns:entity>
 		<tns:entity>
@@ -130,7 +210,96 @@
 				<tns:id>connection_7</tns:id>
 				<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
 				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.purkinje_4.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>546</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
 			</tns:connection>
 		</tns:entity>
 	</tns:entity>
+	<tns:entity>
+		<tns:id>purkinje_6</tns:id>
+		<tns:aspect>
+			<tns:id>electrical</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+			</tns:simulator>
+			<tns:model>
+				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
+				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
+			</tns:model>
+		</tns:aspect>
+		<tns:position>
+			<tns:x>-300</tns:x>
+			<tns:y>150</tns:y>
+			<tns:z>100</tns:z>
+		</tns:position>
+		<tns:connection>
+			<tns:id>connection_8</tns:id>
+			<tns:entityInstancePath>purkinje_2.purkinje_4</tns:entityInstancePath>
+			<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_2.purkinje_4.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>326</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+		</tns:connection>
+		<tns:entity>
+			<tns:id>purkinje_7</tns:id>
+			<tns:aspect>
+				<tns:id>electrical</tns:id>
+				<tns:simulator>
+					<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+				</tns:simulator>
+				<tns:model>
+					<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
+					<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
+				</tns:model>
+			</tns:aspect>
+			<tns:position>
+				<tns:x>-350</tns:x>
+				<tns:y>0</tns:y>
+				<tns:z>100</tns:z>
+			</tns:position>
+			<tns:connection>
+				<tns:id>connection_9</tns:id>
+				<tns:entityInstancePath>purkinje_8</tns:entityInstancePath>
+				<tns:type>FROM</tns:type>
+				<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_8.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>746</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+			</tns:connection>
+			</tns:entity>
+		</tns:entity>
+	<tns:entity>
+		<tns:id>purkinje_8</tns:id>
+		<tns:aspect>
+			<tns:id>electrical</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+			</tns:simulator>
+			<tns:model>
+				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
+				<tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
+			</tns:model>
+		</tns:aspect>
+		<tns:position>
+			<tns:x>-200</tns:x>
+			<tns:y>0</tns:y>
+			<tns:z>-100</tns:z>
+		</tns:position>
+		<tns:connection>
+			<tns:id>connection_10</tns:id>
+			<tns:entityInstancePath>purkinje_6.purkinje_7</tns:entityInstancePath>
+			<tns:type>TO</tns:type>
+			<tns:visualReference>
+				<tns:aspectInstancePath>purkinje_6.purkinje_7.electrical</tns:aspectInstancePath>
+				<tns:visualObjectID>786</tns:visualObjectID>
+				<tns:id>reference_1</tns:id>
+			</tns:visualReference>
+		</tns:connection>
+		</tns:entity>
 </tns:simulation>
