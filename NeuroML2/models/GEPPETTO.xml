@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
+
+	<tns:entity>
+		<tns:id>model-17</tns:id>
+		<tns:aspect>
+			<tns:id>electrical</tns:id>
+			<tns:simulator>
+				<tns:simulatorId>neuroMLSimulator</tns:simulatorId>
+			</tns:simulator>
+			<tns:model>
+    				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
+    				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/NeuroML2/models/l22_sphersoma.nml</tns:modelURL>
+			</tns:model>
+		</tns:aspect>
+	</tns:entity>
+	
+</tns:simulation>
