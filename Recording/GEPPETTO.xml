@@ -5,15 +5,11 @@
     <tns:aspect>
       <tns:id>electrical</tns:id>
       <tns:simulator>
-        <tns:simulatorId>recordingsSimulator</tns:simulatorId>
-      </tns:simulator>
-      <tns:simulator>
         <tns:simulatorId>neuroMLSimulator</tns:simulatorId>
       </tns:simulator>
       <tns:model>
         <tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
         <tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
-        <tns:recordingURL>https://github.com/openworm/org.geppetto.samples/raw/development/Recording/recording_small.h5</tns:recordingURL>
       </tns:model>
     </tns:aspect>
     <tns:aspect>
