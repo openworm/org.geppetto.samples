@@ -9,7 +9,7 @@
         <tns:simulatorId>neuroMLSimulator</tns:simulatorId>
       </tns:simulator>
       <tns:model><tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
-        <tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/NeuroML/Acnet2/MediumNet.net.nml</tns:modelURL>
+        <tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/NeuroML/ACnet2/MediumNet.net.nml</tns:modelURL>
       </tns:model>
     </tns:aspect>
   </tns:entity>
