@@ -1,4 +1,7 @@
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["Entity.Aspect.SimulationTree.P.neuron0.gi","Entity.Aspect.SimulationTree.P.neuron0.ge"]}]);
+Simulation.addWatchLists([{name:"Recording",variablePaths:["purkinje.recordings.SimulationTree.P.neuron0.gi","purkinje.recordings.SimulationTree.P.neuron0.ge"]}]);
+Simulation.startWatch();
+Simulation.start();
+
 G.addWidget(Widgets.POPUP);
 Popup1.setName("Recording Simulation");
 Popup1.setMessage("Testing recording values");
