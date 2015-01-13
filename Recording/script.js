@@ -8,5 +8,5 @@ Popup1.setMessage("Testing recording values");
 Popup1.setSize(172.80000019073486,394.80000019073486)
 Popup1.setPosition(129,77)
 G.addWidget(Widgets.VARIABLEVISUALISER);
-VarVis1.setVariable(Entity.Aspect.SimulationTree.P.neuron0.gi);
+VarVis1.setVariable(purkinje.electrical.SimulationTree.P.neuron0.gi);
 VarVis1.setPosition(529,77);
