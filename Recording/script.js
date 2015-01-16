@@ -12,9 +12,10 @@ G.addWidget(Widgets.PLOT);
 
 Plot1.setName("Recording Simulation");
 
-options = {yaxis:{min:0,max:0.1},xaxis:{min:0,max:109,show:false}};
+options = {yaxis:{min:0,max:0.001},xaxis:{min:0,max:109,show:true}};
 
 Plot1.setOptions(options);
 Plot1.setPosition(663, 63);
 Plot1.setSize(230,445)
 Plot1.plotData(purkinje.electrical.SimulationTree.P.neuron0.gi);
+Plot1.plotData(purkinje.electrical.SimulationTree.P.neuron0.ge);
