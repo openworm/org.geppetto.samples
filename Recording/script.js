@@ -12,7 +12,7 @@ G.addWidget(Widgets.PLOT);
 
 Plot1.setName("Recording Simulation");
 
-options = {yaxis:{min:0,max:0.000001},xaxis:{min:0,max:109,show:true}};
+options = {yaxis:{min:0,max:0.0001},xaxis:{min:0,max:109,show:true}};
 
 Plot1.setOptions(options);
 Plot1.setPosition(663, 63);
