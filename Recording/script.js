@@ -10,4 +10,10 @@ Popup1.setPosition(129,77);
 
 G.addWidget(Widgets.VARIABLEVISUALISER);
 VarVis1.setVariable(purkinje.electrical.SimulationTree.P.neuron0.ge);
-VarVis1.setPosition(529,77);
+VarVis1.setPosition(121,48);
+VarVis1.setSize(193.80000019073486,1039.8000001907349)
+
+G.addWidget(Widgets.VARIABLEVISUALISER);
+VarVis2.setVariable(purkinje.electrical.SimulationTree.P.neuron0.gi);
+VarVis2.setPosition(101,422);
+VarVis2.setSize(193.80000019073486,1039.8000001907349)
