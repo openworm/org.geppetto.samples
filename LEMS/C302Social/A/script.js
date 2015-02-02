@@ -23,3 +23,9 @@ Simulation.addBrightnessFunction(c302.IL2R_0.electrical, c302.IL2R_0.electrical.
 Simulation.addBrightnessFunction(c302.RMGR_0.electrical, c302.RMGR_0.electrical.SimulationTree.generic_iaf_cell.v, function(x){return (x+0.06)/0.06;});
 Simulation.addBrightnessFunction(c302.RMHR_0.electrical, c302.RMHR_0.electrical.SimulationTree.generic_iaf_cell.v, function(x){return (x+0.06)/0.06;});
 Simulation.addBrightnessFunction(c302.URXR_0.electrical, c302.URXR_0.electrical.SimulationTree.generic_iaf_cell.v, function(x){return (x+0.06)/0.06;});
+
+c302.electrical.getModelTree();
+G.addWidget(3);
+TreeVisualiserDAT1.setData(c302);
+TreeVisualiserDAT1.setPosition(784,110);
+TreeVisualiserDAT1.setName("C302 social circuit");
