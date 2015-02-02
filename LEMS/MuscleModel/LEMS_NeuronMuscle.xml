@@ -16,14 +16,7 @@
     <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/CaPool.nml"/>
     <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/SingleCompMuscle.cell.nml">
 
-    <expTwoSynapse id="exc_syn_1conns" erev="0mV" gbase="16nS" tauDecay="10ms" tauRise="3ms"/>
     
-    <iafCell id="generic_iaf_cell" reset="-70mV" C="0.2nF" thresh="-50mV" leakConductance="0.01uS" leakReversal="-70mV"/>
-    
-    <pulseGenerator id="offset_current" delay="100ms" duration="200ms" amplitude="0.3nA"/>
-    <pulseGenerator id="offsetToMin75" delay="0ms" duration="1000ms" amplitude="-520 pA" />
-
-
 	<Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/NeuronMuscle.net.nml"/>
 
 
