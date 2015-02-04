@@ -7,15 +7,8 @@
     <!-- Include core NeuroML2 ComponentType definitions -->
     <Include file="Simulation.xml"/>
 
-    <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/Leak.channel.nml"/>
-    <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/k_slow.channel.nml"/>
-    <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/k_fast.channel.nml"/>
-    <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/ca_boyle.channel.nml"/>
     <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/CaPool.nml"/>
-    <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/SingleCompMuscle.cell.nml">
-
-    
-	<Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/NeuronMuscle.net.nml"/>
+    <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/NeuronMuscle.net.nml"/>
 
 
     <Simulation id="sim1" length="500ms" step="0.05ms" target="net1">
