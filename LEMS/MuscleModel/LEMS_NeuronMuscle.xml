@@ -5,8 +5,6 @@
     <Target component="sim1"/>
 
     <!-- Include core NeuroML2 ComponentType definitions -->
-    <Include file="Cells.xml"/>
-    <Include file="Networks.xml"/>
     <Include file="Simulation.xml"/>
 
     <Include url="https://raw.githubusercontent.com/openworm/muscle_model/master/NeuroML2/Leak.channel.nml"/>
