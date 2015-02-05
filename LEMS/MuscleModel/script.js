@@ -21,7 +21,7 @@ G.addWidget(GEPPETTO.Widgets.PLOT);
 Plot3.setName("Voltage response neuron (mV)");
 Plot3.setSize(256,453);
 Plot3.setPosition(639,84)
-Plot3.plotData(net.neuron_0electrical.SimulationTree.generic_iaf_cell.v,options);
+Plot3.plotData(net.neuron_0.electrical.SimulationTree.generic_iaf_cell.v,options);
 
 G.addWidget(GEPPETTO.Widgets.TREEVISUALISERDAT);
 TreeVisualiserDAT1.setData(net);
