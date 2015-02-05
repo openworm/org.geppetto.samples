@@ -1,4 +1,4 @@
-Simulation.addWatchLists([{name:"musclevars",variablePaths:["net.electrical.SimulationTree.neuron[0].generic_iaf_cell.v", "net.electrical.SimulationTree.muscle[0].SingleCompMuscleCell.v", "net.electrical.SimulationTree.muscle[0].SingleCompMuscleCell.caConc"]}]);
+Simulation.addWatchLists([{name:"musclevars",variablePaths:["net.neuron_0.electrical.SimulationTree.generic_iaf_cell.v", "net.muscle_0.electrical.SimulationTree.SingleCompMuscleCell.v", "net.muscle_0.electrical.SimulationTree.SingleCompMuscleCell.caConc"]}]);
 Simulation.startWatch();
 Simulation.start();
 
@@ -7,21 +7,21 @@ G.addWidget(GEPPETTO.Widgets.PLOT);
 Plot1.setName("Voltage response muscle (mV)");
 Plot1.setSize(256,453);
 Plot1.setPosition(184,83);
-Plot1.plotData(net.electrical.SimulationTree.muscle[0].SingleCompMuscleCell.v,options);
+Plot1.plotData(net.muscle_0.electrical.SimulationTree.SingleCompMuscleCell.v,options);
 
 options = {yaxis:{min:-0.000005,max:0.000055},xaxis:{min:0,max:400,show:false}};
 G.addWidget(GEPPETTO.Widgets.PLOT);
 Plot2.setName("Ca concentration muscle (mM)");
 Plot2.setSize(256,453);
 Plot2.setPosition(184,340);
-Plot2.plotData(net.electrical.SimulationTree.muscle[0].SingleCompMuscleCell.caConc,options);
+Plot2.plotData(net.muscle_0.electrical.SimulationTree.SingleCompMuscleCell.caConc,options);
 
 options = {yaxis:{min:-.1,max:0.1},xaxis:{min:0,max:400,show:false}};
 G.addWidget(GEPPETTO.Widgets.PLOT);
 Plot3.setName("Voltage response neuron (mV)");
 Plot3.setSize(256,453);
 Plot3.setPosition(639,84)
-Plot3.plotData(net.electrical.SimulationTree.neuron[0].generic_iaf_cell.v,options);
+Plot3.plotData(net.neuron_0electrical.SimulationTree.generic_iaf_cell.v,options);
 
 G.addWidget(GEPPETTO.Widgets.TREEVISUALISERDAT);
 TreeVisualiserDAT1.setData(net);
