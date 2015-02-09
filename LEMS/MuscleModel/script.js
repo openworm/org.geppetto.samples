@@ -39,6 +39,4 @@ Popup1.setSize(209.8,294.8)
 Popup1.setPosition(1099,84)
 
 G.incrementCameraZoom(-0.2)
-G.incrementCameraRotate(0.5, 0, 0)
-G.incrementCameraRotate(0.5, 0, 0)
-G.incrementCameraPan(0.5, 0)
+
