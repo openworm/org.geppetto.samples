@@ -26,6 +26,7 @@ Plot3.setPosition(639,84)
 Plot3.plotData(net.neuron_0.electrical.SimulationTree.generic_iaf_cell.v,options);
 
 G.addWidget(GEPPETTO.Widgets.TREEVISUALISERDAT);
+TreeVisualiserDAT1.setName("Neuron and muscle cell network");
 TreeVisualiserDAT1.setData(net);
 TreeVisualiserDAT1.setPosition(397,77);
 TreeVisualiserDAT1.setPosition(639,339)
@@ -35,4 +36,4 @@ G.addWidget(Widgets.POPUP);
 Popup1.setName("Description");
 Popup1.setMessage("This is a live running example of the OpenWorm muscle model, found online at http://github.com/openworm/muscle_model.  This simulates the electrial properties of a single c. elegans body wall muscle cell.  The original version is based on a paper by Boyle & Cohen in 2008.");
 Popup1.setSize(209.8,294.8)
-Popup1.setPosition(10,383)
+Popup1.setPosition(1099,84)
