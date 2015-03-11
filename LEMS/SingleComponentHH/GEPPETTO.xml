@@ -6,7 +6,8 @@
 		<tns:aspect>
 			<tns:id>electrical</tns:id>
 			<tns:simulator>
-				<tns:simulatorId>jLemsSimulator</tns:simulatorId>
+				<tns:simulatorId>neuronSimulator</tns:simulatorId>
+				<tns:conversionServiceId>lemsConversion</tns:conversionServiceId>
 			</tns:simulator>
 			<tns:model>
     				<tns:modelInterpreterId>lemsModelInterpreter</tns:modelInterpreterId>
@@ -14,7 +15,5 @@
 			</tns:model>
 		</tns:aspect>		
 	</tns:entity>
-	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/master/LEMS/SingleComponentHH/HH_Geppetto_Script.js</tns:script>
-	
 </tns:simulation>
 
