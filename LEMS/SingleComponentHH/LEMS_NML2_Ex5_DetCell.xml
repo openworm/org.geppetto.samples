@@ -45,9 +45,9 @@
         </OutputFile>  
         
         <OutputFile id="of1" fileName="results/ex5_vars.dat">
-            <OutputColumn id="m" quantity="hhpop[0]/bioPhys1/membraneProperties/naChans/naChan/m/q"/> 
-            <OutputColumn id="h" quantity="hhpop[0]/bioPhys1/membraneProperties/naChans/naChan/h/q"/> 
-            <OutputColumn id="n" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/kChan/n/q"/> 
+            <OutputColumn id="m" quantity="hhpop[0]/bioPhys1/membraneProperties/naChans/na/m/q"/> 
+            <OutputColumn id="h" quantity="hhpop[0]/bioPhys1/membraneProperties/naChans/na/h/q"/> 
+            <OutputColumn id="n" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/k/n/q"/> 
         </OutputFile>  
         
     </Simulation>
