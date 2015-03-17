@@ -14,5 +14,5 @@
       </tns:model>
     </tns:aspect>
   </tns:entity>
-  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/Recording/script.js</tns:script>
+  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/master/Recording/script.js</tns:script>
 </tns:simulation>
