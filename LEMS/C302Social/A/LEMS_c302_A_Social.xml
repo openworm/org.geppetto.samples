@@ -1,7 +1,7 @@
 <Lems>
 
     <!--
- 
+
 
 Parameters and setting used to generate this network:
 
@@ -41,7 +41,7 @@ Parameters and setting used to generate this network:
     <Include url="https://raw.github.com/NeuroML/NeuroML2/master/NeuroML2CoreTypes/NeuroML2CoreTypes.xml"/>
     <Include file="/Simulation.xml"/>
 
-    <Include url="https://raw.githubusercontent.com/openworm/org.geppetto.samples/master/LEMS/C302Social/c302_A_Social.nml" />
+    <Include url="https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/LEMS/C302Social/A/c302_A_Social.nml" />
 
     <!-- End of NeuroML2 content -->
 
