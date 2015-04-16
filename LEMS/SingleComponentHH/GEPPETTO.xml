@@ -6,8 +6,7 @@
 		<tns:aspect>
 			<tns:id>electrical</tns:id>
 			<tns:simulator>
-				<tns:simulatorId>neuronSimulator</tns:simulatorId>
-				<tns:conversionServiceId>lemsConversion</tns:conversionServiceId>
+				<tns:simulatorId>jLemsSimulator</tns:simulatorId>
 			</tns:simulator>
 			<tns:model>
     				<tns:modelInterpreterId>lemsModelInterpreter</tns:modelInterpreterId>
