@@ -1,5 +1,5 @@
 hhcell.electrical.getSimulationTree();
-Simulation.addWatchLists([hhcell.electrical.SimulationTree.hhpop[0].v, hhcell.electrical.SimulationTree.hhpop[0].spiking, hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity, hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q, hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q, hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q]);
+Simulation.setWatchedVariables([hhcell.electrical.SimulationTree.hhpop[0].v, hhcell.electrical.SimulationTree.hhpop[0].spiking, hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.gDensity, hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q, hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q, hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q]);
 Simulation.start();
 G.addWidget(Widgets.PLOT);
 Plot1.setName("Hodgkin-Huxley Spiking Neuron");
