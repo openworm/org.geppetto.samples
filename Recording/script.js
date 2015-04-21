@@ -1,5 +1,6 @@
-Simulation.addWatchLists([{name:"Recording",variablePaths:["purkinje.recordings.SimulationTree.P.neuron0.gi","purkinje.recordings.SimulationTree.P.neuron0.ge"]}]);
-Simulation.startWatch();
+purkinje.recordings.getSimulationTree();
+
+Simulation.setWatchedVariables([purkinje.recordings.SimulationTree.P.neuron0.gi, purkinje.recordings.SimulationTree.P.neuron0.ge]);
 Simulation.start();
 
 G.addWidget(Widgets.POPUP);
