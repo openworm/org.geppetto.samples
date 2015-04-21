@@ -1,5 +1,6 @@
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["hhcell.electrical.SimulationTree.hr_chaotic_pop[0].x", "hhcell.electrical.SimulationTree.hr_chaotic_pop[0].y", "hhcell.electrical.SimulationTree.hr_chaotic_pop[0].z"]}]);
-Simulation.startWatch();
+hhcell.electrical.getSimulationTree();
+
+Simulation.setWatchedVariables([hhcell.electrical.SimulationTree.hr_chaotic_pop[0].x, hhcell.electrical.SimulationTree.hr_chaotic_pop[0].y, hhcell.electrical.SimulationTree.hr_chaotic_pop[0].z]);
 Simulation.start();
 
 //Adding Scatter3d 1
