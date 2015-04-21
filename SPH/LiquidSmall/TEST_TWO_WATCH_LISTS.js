@@ -1,6 +1,7 @@
-Simulation.addWatchLists([{name:"sphvars",variablePaths:["sample.fluid.SimulationTree.particle[1].position.z","sample.fluid.SimulationTree.particle[1].position.y", "sample.fluid.SimulationTree.particle[1].position.x"]}]);
+sample.fluid.getSimulationTree()
 
-Simulation.startWatch();
+Simulation.setWatchedVariables([sample.fluid.SimulationTree.particle[1].position.z, sample.fluid.SimulationTree.particle[1].position.y, sample.fluid.SimulationTree.particle[1].position.x]);
+Simulation.start();
 
 G.addWidget(Widgets.PLOT);
  
@@ -17,6 +18,6 @@ Simulation.start();
 Plot1.plotData("sample.fluid.SimulationTree.particle[1].position.x");
 Plot1.plotData("sample.fluid.SimulationTree.particle[1].position.y");
 
-Simulation.addWatchLists([{name:"sphvars2",variablePaths:["sample.fluid.SimulationTree.particle[2].position.x"]}]);
+Simulation.setWatchedVariables([sample.fluid.SimulationTree.particle[2].position.x]);
 
 Plot1.plotData("sample.fluid.SimulationTree.particle[2].position.x");
