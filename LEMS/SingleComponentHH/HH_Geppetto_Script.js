@@ -1,6 +1,5 @@
 hhcell.electrical.getSimulationTree();
 Simulation.setWatchedVariables([hhcell.electrical.SimulationTree.hhpop[0].v,hhcell.electrical.SimulationTree.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q]);
-Simulation.startWatch();
 Simulation.start();
 
 G.addWidget(Widgets.POPUP);
