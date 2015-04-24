@@ -11,8 +11,6 @@ Plot1.plotData(hhcell.electrical.SimulationTree.hhpop[0].v);
 Plot1.plotData(hhcell.electrical.SimulationTree.hhpop[0].spiking);
 
 
-G.wait(100);
-
 G.addWidget(Widgets.PLOT);
 
 options = {yaxis:{min:0,max:250},xaxis:{min:0,max:400,show:false}};
