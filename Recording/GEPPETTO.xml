@@ -10,9 +10,9 @@
       <tns:model>
         <tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
         <tns:modelURL>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Purkinje/purk.nml</tns:modelURL>
-      	<tns:recordingURL>/recording_small.h5</tns:recordingURL>
+      	<tns:recordingURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/Recording/recording_small.h5</tns:recordingURL>
       </tns:model>
     </tns:aspect>
   </tns:entity>
-  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/Recording/script.js</tns:script>
+  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/listWatchableVariables/Recording/script.js</tns:script>
 </tns:simulation>
