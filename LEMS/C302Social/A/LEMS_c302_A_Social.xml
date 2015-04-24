@@ -42,7 +42,6 @@ Parameters and setting used to generate this network:
     <Include file="/Simulation.xml"/>
 
     <Include url="https://raw.githubusercontent.com/openworm/org.geppetto.samples/master/LEMS/C302Social/c302_A_Social.nml" />
-
     <!-- End of NeuroML2 content -->
 
 

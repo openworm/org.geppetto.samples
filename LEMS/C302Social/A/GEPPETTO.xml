@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
+  <tns:entity>
+    <tns:id>c302</tns:id>
+    <tns:aspect>
+      <tns:id>electrical</tns:id>
+      <tns:simulator>
+        <tns:simulatorId>jLemsSimulator</tns:simulatorId>
+      </tns:simulator>
+      <tns:model>
+        <tns:modelInterpreterId>lemsModelInterpreter</tns:modelInterpreterId>
+        <tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/LEMS/C302Social/A/LEMS_c302_A_Social.xml</tns:modelURL>
+      </tns:model>
+    </tns:aspect>
+  </tns:entity>
+  <tns:script>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/LEMS/C302Social/A/script.js</tns:script>
+</tns:simulation>
