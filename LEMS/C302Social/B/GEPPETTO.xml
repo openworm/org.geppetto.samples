@@ -13,5 +13,5 @@
       </tns:model>
     </tns:aspect>
   </tns:entity>
-  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/listWatchableVariables/LEMS/C302Social/script.js</tns:script>
+  <tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/LEMS/C302Social/script.js</tns:script>
 </tns:simulation>
