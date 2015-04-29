@@ -1,5 +1,4 @@
-Simulation.addWatchLists([{name:"hhvars",variablePaths:["c302.ASHR_0.electrical.SimulationTree.generic_iaf_cell.v","c302.ASKR_0.electrical.SimulationTree.generic_iaf_cell.v","c302.AWBR_0.electrical.SimulationTree.generic_iaf_cell.v","c302.IL2R_0.electrical.SimulationTree.generic_iaf_cell.v","c302.RMGR_0.electrical.SimulationTree.generic_iaf_cell.v","c302.RMHR_0.electrical.SimulationTree.generic_iaf_cell.v","c302.URXR_0.electrical.SimulationTree.generic_iaf_cell.v"]}]);
-Simulation.startWatch();
+Simulation.setWatchedVariables([c302.ASHR_0.electrical.SimulationTree.generic_iaf_cell.v,c302.ASKR_0.electrical.SimulationTree.generic_iaf_cell.v,c302.AWBR_0.electrical.SimulationTree.generic_iaf_cell.v,c302.IL2R_0.electrical.SimulationTree.generic_iaf_cell.v,c302.RMGR_0.electrical.SimulationTree.generic_iaf_cell.v,c302.RMHR_0.electrical.SimulationTree.generic_iaf_cell.v,c302.URXR_0.electrical.SimulationTree.generic_iaf_cell.v]);
 Simulation.start();
 
 G.addWidget(GEPPETTO.Widgets.PLOT);
