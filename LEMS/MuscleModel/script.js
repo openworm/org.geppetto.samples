@@ -1,7 +1,7 @@
 net.electrical.getModelTree();
+net.electrical.getSimulationTree();
 
-Simulation.addWatchLists([{name:"musclevars",variablePaths:["net.neuron_0.electrical.SimulationTree.generic_iaf_cell.v", "net.muscle_0.electrical.SimulationTree.SingleCompMuscleCell.v", "net.muscle_0.electrical.SimulationTree.SingleCompMuscleCell.caConc"]}]);
-Simulation.startWatch();
+Simulation.setWatchedVariables([net.neuron_0.electrical.SimulationTree.generic_iaf_cell.v,net.muscle_0.electrical.SimulationTree.SingleCompMuscleCell.v,net.muscle_0.electrical.SimulationTree.SingleCompMuscleCell.caConc]);
 Simulation.start();
 
 options = {yaxis:{min:-0.08,max:0.01},xaxis:{min:0,max:400,show:false}};
