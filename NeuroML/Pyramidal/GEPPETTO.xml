@@ -10,10 +10,10 @@
 			</tns:simulator>
 			<tns:model>
     				<tns:modelInterpreterId>neuroMLModelInterpreter</tns:modelInterpreterId>
-    				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/NeuroML/Pyramidal/L5PC.cell.nml</tns:modelURL>
+    				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/master/NeuroML/Pyramidal/L5PC.cell.nml</tns:modelURL>
 			</tns:model>
 		</tns:aspect>
 	</tns:entity>
-	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/NeuroML/Pyramidal/script.js</tns:script>
+	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/master/NeuroML/Pyramidal/script.js</tns:script>
 	
 </tns:simulation>

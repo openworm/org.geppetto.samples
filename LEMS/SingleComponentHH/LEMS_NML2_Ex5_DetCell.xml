@@ -40,6 +40,15 @@
         </Display>
     
         <!-- See other examples for saving of data traces -->
+         <OutputFile id="of0" fileName="results/ex5_v.dat">
+            <OutputColumn id="v" quantity="hhpop[0]/v"/> 
+        </OutputFile>  
+        
+        <OutputFile id="of1" fileName="results/ex5_vars.dat">
+            <OutputColumn id="m" quantity="hhpop[0]/bioPhys1/membraneProperties/naChans/na/m/q"/> 
+            <OutputColumn id="h" quantity="hhpop[0]/bioPhys1/membraneProperties/naChans/na/h/q"/> 
+            <OutputColumn id="n" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/k/n/q"/> 
+        </OutputFile>  
         
     </Simulation>
 
