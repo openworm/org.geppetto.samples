@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <tns:simulation xmlns:tns="http://www.openworm.org/simulationSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="../../main/resources/schema/simulationSchema.xsd">
     <tns:entity> 
-        <tns:id>wormsim</tns:id>
-        <tns:entity> 
             <tns:id>muscle_0</tns:id>
             <tns:aspect>
                 <tns:id>mechanical</tns:id> 
@@ -12,6 +10,5 @@
                     <tns:recordingURL>/recordings/10downsampled_wormsim_recording.h5</tns:recordingURL>	
                 </tns:model>
             </tns:aspect>
-        </tns:entity>
     </tns:entity>
 </tns:simulation>
