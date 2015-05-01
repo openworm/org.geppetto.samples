@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <author>open-worm</author>
+        </contributor>
+        <created>2015-02-25</created>
+        <modified>2015-02-25</modified>
+        <Y_UP>Y_UP</Y_UP>
+    </asset>
+    <library_geometries>
+        <geometry id="worm-mesh_0" name="worm-mesh_0">
+            <mesh>
+                <source id="positions_0" name="positions_0">
+                    <float_array id="positions_0-array" count="45">56.1116 459.541 -4.92598 54.6642 458.473 -5.00092 55.1636 460.531 -4.7645 53.7069 459.458 -4.86437 54.222 461.525 -4.60568 52.7461 460.444 -4.70464 53.2883 462.498 -4.4483 51.7676 461.403 -4.5372 52.327 463.462 -4.28163 50.815 462.323 -4.37983 51.361 464.407 -4.06595 49.8795 463.262 -4.18227 50.4425 465.337 -3.86461 48.9524 464.144 -4.04635 49.5572 466.234 -3.69087 </float_array>
+                    <technique_common>
+                        <accessor source="#positions_0-array" count="15" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="verts_0">
+                    <input semantic="POSITION" source="#positions_0"/>
+                </vertices>
+                <triangles count="26">
+                    <input semantic="VERTEX" source="#verts_0" offset="0"/>
+                    <p>13 11 14 10 13 14 12 10 14 1 12 14 11 1 14 9 11 13 10 8 13 8 9 13 6 10 12 4 6 12 2 4 12 0 2 12 1 0 12 9 7 11 7 1 11 6 8 10 8 7 9 6 7 8 6 5 7 5 1 7 4 5 6 4 3 5 3 1 5 2 3 4 2 0 3 0 1 3 </p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="VisualSceneNode" name="untitled">
+            <node id="worm_0" name="worm_0">
+                <rotate sid="rotateZ">0 0 1 0</rotate>
+                <rotate sid="rotateY">0 1 0 0</rotate>
+                <rotate sid="rotateX">1 0 0 0</rotate>
+                <instance_geometry url="#worm-mesh_0"/>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#VisualSceneNode"/>
+    </scene>
+</COLLADA>
