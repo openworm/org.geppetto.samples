@@ -1,1 +1,1 @@
-muscle_0.mechanical.getSimulationTree();
+wormsim.mechanical.getSimulationTree();
