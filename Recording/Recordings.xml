@@ -6,6 +6,9 @@
 		<tns:id>wormsim</tns:id>
 		<tns:aspect>
 			<tns:id>mechanical</tns:id>
+			<tns:simulator>
+					<tns:simulatorId>colladaSimulator</tns:simulatorId>
+			</tns:simulator>
 			<tns:model>
 				<tns:modelInterpreterId>colladaModelInterpreter</tns:modelInterpreterId>
 				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/Recording/wormColladaBentCuticleOnlyWithoutMuscles_00000.dae</tns:modelURL>
@@ -16,9 +19,6 @@
 			<tns:id>muscle_0</tns:id>
 			<tns:aspect>
 				<tns:id>mechanical</tns:id>
-				<tns:simulator>
-					<tns:simulatorId>colladaSimulator</tns:simulatorId>
-				</tns:simulator>
 				<tns:model>
 					<tns:modelInterpreterId>colladaModelInterpreter</tns:modelInterpreterId>
 					<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/Recording/wormMuscleCell_00Collada_00000.dae</tns:modelURL>
