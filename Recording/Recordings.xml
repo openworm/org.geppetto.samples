@@ -7,12 +7,9 @@
 		<tns:aspect>
 			<tns:id>mechanical</tns:id>
 			<tns:model>
-				<tns:modelInterpreterId>colladaModelInterpreter
-				</tns:modelInterpreterId>
-				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/Recording/wormColladaBentCuticleOnlyWithoutMuscles_00000.dae
-				</tns:modelURL>
-				<tns:recordingURL>/recordings/10downsampled_wormsim_recording.h5
-				</tns:recordingURL>
+				<tns:modelInterpreterId>colladaModelInterpreter</tns:modelInterpreterId>
+				<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/Recording/wormColladaBentCuticleOnlyWithoutMuscles_00000.dae</tns:modelURL>
+				<tns:recordingURL>/recordings/10downsampled_wormsim_recording.h5</tns:recordingURL>
 			</tns:model>
 		</tns:aspect>
 		<tns:entity>
@@ -23,14 +20,11 @@
 					<tns:simulatorId>colladaSimulator</tns:simulatorId>
 				</tns:simulator>
 				<tns:model>
-					<tns:modelInterpreterId>colladaModelInterpreter
-					</tns:modelInterpreterId>
-					<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/Recording/wormMuscleCell_00Collada_00000.dae
-					</tns:modelURL>
+					<tns:modelInterpreterId>colladaModelInterpreter</tns:modelInterpreterId>
+					<tns:modelURL>https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/Recording/wormMuscleCell_00Collada_00000.dae</tns:modelURL>
 				</tns:model>
 			</tns:aspect>
 		</tns:entity>
 	</tns:entity>
-	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/Recording/script.js
-	</tns:script>
+	<tns:script>https://raw.github.com/openworm/org.geppetto.samples/development/Recording/script.js</tns:script>
 </tns:simulation>
