@@ -1,5 +1,5 @@
 {
-  id: 1,
+  id: 100,
   activeExperimentId: 1,
   name: "LEMS Sample Hodgkin-Huxley Neuron",
   geppettoModel: {
