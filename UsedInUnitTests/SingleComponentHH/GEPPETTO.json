@@ -31,27 +31,5 @@
         "hhcell.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"
         ]
   	}
-  	],
-  	simulationResults: [
-  	{
-  		id:1,
-  		format: "GEPPETTO_RECORDING",
-		"simulatedInstance": "hhcell",
-        result: {
-          id: 1,
-          url: "/projects/SingleComponentHH/results.h5",
-          type: "RECORDING"
-        }
-  	},
-  	{
-  		id:2,
-  		format: "RAW",
-		"simulatedInstance": "hhcell",
-        result: {
-          id: 2,
-          url: "/projects/SingleComponentHH/rawRecording.zip",
-          type: "RECORDING"
-        }
-  	}]
 	}]
 }
