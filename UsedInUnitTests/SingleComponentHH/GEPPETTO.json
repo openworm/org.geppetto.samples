@@ -6,17 +6,17 @@
     id: 1,
     url: "https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/SingleComponentHH/GeppettoModel.xmi",
     type: "GEPPETTO_PROJECT"
-  },  experiments: [ 
+  },  experiments: [
   {
-  	id:1,      
-  	name: "Hodgkin-Huxley NEURON simulation",
-  	status: "COMPLETED",
-  	description : "The Hodgkin-Huxley model (or conductance-based model) is a mathematical model that describes how action potentials in neurons are initiated and propagated. It is a set of nonlinear differential equations that approximates the electrical characteristics of excitable cells such as neurons.",
+    id:1,
+    name: "Hodgkin-Huxley NEURON simulation",
+    status: "COMPLETED",
+    description : "The Hodgkin-Huxley model (or conductance-based model) is a mathematical model that describes how action potentials in neurons are initiated and propagated. It is a set of nonlinear differential equations that approximates the electrical characteristics of excitable cells such as neurons.",
     "lastModified":"1436102517799",
-  	script: "https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/SingleComponentHH/HH_Geppetto_Script.js",
-  	aspectConfigurations: [
-    {
-		"instance": "hhcell",
+    script: "https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/SingleComponentHH/HH_Geppetto_Script.js",
+    aspectConfigurations: [
+      {
+        "instance": "hhcell",
         simulatorConfiguration: {
           id: 1,
           simulatorId: "neuronSimulator",
@@ -26,10 +26,10 @@
           parameters: {target: "net1"}
         },
         watchedVariables:["hhcell.hhpop[0].v",
-        "hhcell.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q",
-        "hhcell.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q",
-        "hhcell.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"
+          "hhcell.hhpop[0].bioPhys1.membraneProperties.naChans.na.m.q",
+          "hhcell.hhpop[0].bioPhys1.membraneProperties.naChans.na.h.q",
+          "hhcell.hhpop[0].bioPhys1.membraneProperties.kChans.k.n.q"
         ]
-  	}]
-}
+      }]
+  }]
 }
