@@ -1,0 +1,19 @@
+{
+	"id": 100,
+	"activeExperimentId": 1,
+	"name": "OntologyTest",
+	"geppettoModel": {
+		"id": 1,
+		"url": "https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/DatasourceTest/GeppettoModel.xmi",
+		"type": "GEPPETTO_PROJECT"
+	},
+	"experiments": [{
+		"id": 1,
+		"name": "OntologyTest",
+		"status": "DESIGN",
+		"description": "Ontology Test",
+		"lastModified": "1436102517799",
+		"script": "",
+		"aspectConfigurations": []
+	}]
+}
