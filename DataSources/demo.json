@@ -1,0 +1,46 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":2088,
+    "params":{
+      "hl":"true",
+      "indent":"true",
+      "fl":"short_form,label,synonym,id,type,has_narrow_synonym_annotation,has_broad_synonym_annotation",
+      "start":"0",
+      "fq":["ontology_name:(fbbt)",
+        "is_obsolete:false",
+        "shortform_autosuggest:VFB_* OR shortform_autosuggest:FBbt_*"],
+      "rows":"250",
+      "hl.simple.pre":"<b>",
+      "bq":"is_defining_ontology:true^100.0 label_s:\"\"^2 synonym_s:\"\" in_subset_annotation:BRAINNAME^3 short_form:FBbt_00003982^2",
+      "q":"**",
+      "defType":"edismax",
+      "qf":"label synonym label_autosuggest_ws label_autosuggest_e label_autosuggest synonym_autosuggest_ws synonym_autosuggest_e synonym_autosuggest shortform_autosuggest has_narrow_synonym_annotation has_broad_synonym_annotation",
+      "hl.simple.post:</b>":"",
+      "hl.fl":["label_autosuggest",
+        "label",
+        "synonym_autosuggest",
+        "synonym"],
+      "wt":"json"
+     }
+  },
+  "response":{"numFound":48031,"start":0,"docs":[
+      {
+        "name":"demo1",
+        "type":"class"
+      },
+      {
+        "name":"demo2",
+        "type":"class"},
+      {
+        "name":"demo3",
+        "type":"class"},
+      {
+        "name":"demo4",
+        "type":"class"},
+      {
+        "name":"demo5",
+        "type":"class"
+       }]
+       }
+       }
