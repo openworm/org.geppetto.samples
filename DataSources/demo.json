@@ -27,20 +27,20 @@
   "response":{"numFound":48031,"start":0,"docs":[
       {
         "name":"demo1",
-        "type":"class"
+        "type":"individual"
       },
       {
         "name":"demo2",
         "type":"class"},
       {
         "name":"demo3",
-        "type":"class"},
+        "type":"individual"},
       {
         "name":"demo4",
         "type":"class"},
       {
         "name":"demo5",
-        "type":"class"
+        "type":"individual"
        }]
        }
        }
