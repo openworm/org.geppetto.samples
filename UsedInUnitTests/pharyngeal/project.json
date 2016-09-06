@@ -1,0 +1,4 @@
+{"id":1,"name":"c302_A_Pharyngeal","activeExperimentId":1,"experiments":[{"id":1,"name":"c302_A_Pharyngeal - nml","status":"DESIGN","creationDate":"1473181030534","lastModified":"1473181030534",
+
+  "script":"https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/pharyngeal/script.js",
+  "aspectConfigurations":[{"id":1,"instance":"c302_A_Pharyngeal"}]}],"geppettoModel":{"id":1,"url":"https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/pharyngeal/model.xmi","type":"GEPPETTO_PROJECT"}}
