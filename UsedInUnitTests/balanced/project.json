@@ -1,0 +1,4 @@
+{"id":1,"name":"c302_A_Pharyngeal","activeExperimentId":1,"experiments":[{"id":1,"name":"Balanced_240cells_29299conns","status":"DESIGN","creationDate":"1473181030534","lastModified":"1473181030534",
+
+  "script":"https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/balanced/script.js",
+  "aspectConfigurations":[{"id":1,"instance":"Balanced_240cells_29299conns"}]}],"geppettoModel":{"id":1,"url":"https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/balanced/model.xmi","type":"GEPPETTO_PROJECT"}}
