@@ -9,7 +9,7 @@
       name="NeuroML">
     <types xsi:type="gep_1:ImportType"
     	id="network_CA1PyramidalCell"
-        url="https://raw.githubusercontent.com/OpenSourceBrain/CA1PyramidalCell/master/neuroConstruct/generatedNeuroML2/CA1PyramidalCell.net.nml"
+        url="https://raw.githubusercontent.com/OpenSourceBrain/CA1PyramidalCell/master/neuroConstruct/generatedNeuroML2/BigCA1.net.nml"
         modelInterpreterId="neuroMLModelInterpreter"
         referenceURL="ca1pyramidalcell"/>
   </libraries>
