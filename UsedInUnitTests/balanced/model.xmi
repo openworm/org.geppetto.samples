@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
 <gep:GeppettoModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gep="https://raw.githubusercontent.com/openworm/org.geppetto.model/development/src/main/resources/geppettoModel.ecore" xmlns:gep_1="https://raw.githubusercontent.com/openworm/org.geppetto.model/development/src/main/resources/geppettoModel.ecore#//types" xmlns:gep_2="https://raw.githubusercontent.com/openworm/org.geppetto.model/development/src/main/resources/geppettoModel.ecore#//values">
 <variables
-      id="Balanced_240cells_29299conns"
-      name="Balanced_240cells_29299conns"
+      id="Balanced_240cells_36926conns"
+      name="Balanced_240cells_36926conns"
       types="//@libraries.0/@types.0"/>
   <libraries
       id="neuroml"
       name="NeuroML">
     <types xsi:type="gep_1:ImportType"
-        url="https://raw.githubusercontent.com/OpenSourceBrain/OpenCortex/master/examples/Balanced_240cells_29299conns.net.nml"
+        url="https://raw.githubusercontent.com/OpenSourceBrain/OpenCortex/master/examples/Balanced_240cells_36926conns.net.nml"
         modelInterpreterId="neuroMLModelInterpreter"
         referenceURL="celegans"/>
   </libraries>
