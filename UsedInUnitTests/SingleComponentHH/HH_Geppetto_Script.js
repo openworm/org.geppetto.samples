@@ -1,5 +1,4 @@
-Project.getActiveExperiment().playAll();
-G.addBrightnessFunction(hhcell.hhpop[0], hhcell.hhpop[0].v, function(x){return (x+0.07)/0.1;});
+GEPPETTO.SceneController.addColorFunction(GEPPETTO.ModelFactory.instances.getInstance(GEPPETTO.ModelFactory.getAllPotentialInstancesEndingWith('.v'),false), window.voltage_color);
 Project.getActiveExperiment().play({step:1});
 
 
