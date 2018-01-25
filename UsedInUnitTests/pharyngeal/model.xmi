@@ -8,7 +8,7 @@
       id="neuroml"
       name="NeuroML">
     <types xsi:type="gep_1:ImportType"
-        url="https://raw.githubusercontent.com/openworm/CElegansNeuroML/master/CElegans/pythonScripts/c302/examples/c302_A_Pharyngeal.nml"
+        url="https://raw.githubusercontent.com/openworm/org.geppetto.samples/development/UsedInUnitTests/pharyngeal/c302_A_Pharyngeal.nml"
         modelInterpreterId="neuroMLModelInterpreter"
         referenceURL="celegans"/>
   </libraries>
