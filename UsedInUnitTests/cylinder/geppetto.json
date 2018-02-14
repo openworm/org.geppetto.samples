@@ -1,120 +1,46 @@
 {
-   "id":61329228,
-   "name":"spineshowcase",
-   "experiments":[
-      {
-         "id":1,
-         "aspectConfigurations":[
-            {
-               "id":1,
-               "instance":"Example2",
-               "simulatorConfiguration":{
-                  "id":1,
-                  "simulatorId":"neuronSimulator",
-                  "timestep":2.5E-5,
-                  "length":0.3,
-                  "parameters":{
-                     "target":"Example2"
-                  }
-               }
+  "id": 2015402029,
+  "name": "acnet2",
+  "experiments": [
+    {
+      "id": 1,
+      "aspectConfigurations": [
+        {
+          "id": 1,
+          "instance": "Example2",
+          "simulatorConfiguration": {
+            "id": 1,
+            "simulatorId": "neuronSimulator",
+            "timestep": 2.5e-5,
+            "length": 0.3,
+            "parameters": {
+              "target": "Example2"
             }
-         ],
-         "name":"Example2 - net",
-         "creationDate":1518533035000,
-         "lastModified":1518533035000,
-         "status":"DESIGN",
-         "script":"/Example23ab50f6fe29bc9e86c3a6f0443cbbd83.js",
-         "isPublic":false,
-         "view":{
-            "id":0,
-            "viewStates":{
-               "views":{
-                  "Tutorial1":{
-                     "widgetType":"TUTORIAL",
-                     "isWidget":true,
-                     "dataType":"array",
-                     "data":[
-
-                     ],
-                     "componentSpecific":{
-                        "activeTutorial":"Open Source Brain Tutorial",
-                        "currentStep":0
-                     },
-                     "size":{
-                        "height":300,
-                        "width":350
-                     },
-                     "position":{
-                        "left":"50%",
-                        "top":"50%"
-                     }
-                  },
-                  "Console1":{
-                     "widgetType":"CONSOLE",
-                     "isWidget":false
-                  },
-                  "Canvas1":{
-                     "widgetType":"CANVAS",
-                     "isWidget":false,
-                     "dataType":"instances",
-                     "data":[
-                        "Example2"
-                     ],
-                     "componentSpecific":{
-                        "cameraPosition":{
-                           "x":50,
-                           "y":50,
-                           "z":156.844
-                        },
-                        "cameraRotation":{
-                           "rx":0,
-                           "ry":0,
-                           "rz":0,
-                           "radius":156.844
-                        },
-                        "colorMap":{
-                           "Example2.Pop_TwoSeg":"#ff6600",
-                           "Example2.Pop_OneSeg":"#006600"
-                        },
-                        "opacityMap":{
-
-                        },
-                        "geometryTypeMap":{
-
-                        },
-                        "backgroundColor":"0x101010"
-                     }
-                  }
-               }
-            }
-         }
+          }
+        }
+      ],
+      "name": "Example2 - net",
+      "creationDate": 1518622270000,
+      "lastModified": 1518622270000,
+      "status": "DESIGN",
+      "script": "\/Example2443114d6c28bea741626286db9ea346a.js",
+      "isPublic": false,
+      "view": {
+        "viewStates": "{\"views\":{\"Tutorial1\":{\"widgetType\":\"TUTORIAL\",\"isWidget\":true,\"dataType\":\"array\",\"data\":[],\"componentSpecific\":{\"activeTutorial\":\"Open Source Brain Tutorial\",\"currentStep\":0},\"size\":{\"height\":300,\"width\":350},\"position\":{\"left\":\"50%\",\"top\":\"50%\"}},\"Console1\":{\"widgetType\":\"CONSOLE\",\"isWidget\":false},\"Canvas1\":{\"widgetType\":\"CANVAS\",\"isWidget\":false,\"dataType\":\"instances\",\"data\":[\"Example2\"],\"componentSpecific\":{\"cameraPosition\":{\"x\":50,\"y\":50,\"z\":165.06},\"cameraRotation\":{\"rx\":0,\"ry\":0,\"rz\":0,\"radius\":157.56},\"colorMap\":{\"Example2.Pop_TwoSeg\":\"#ff6600\",\"Example2.Pop_OneSeg\":\"#006600\"},\"opacityMap\":{},\"geometryTypeMap\":{},\"backgroundColor\":\"0x101010\"}}}}",
+        "id": 0
       }
-   ],
-   "activeExperimentId":1,
-   "geppettoModel":{
-      "id":1,
-      "url":"/Example2_MODEL3ab50f6fe29bc9e86c3a6f0443cbbd83.xmi",
-      "type":"GEPPETTO_PROJECT"
-   },
-   "isPublic":false,
-   "isReadOnly":false,
-   "view":{
-      "id":0,
-      "viewStates":{
-         "views":{
-            "Canvas1":{
-               "widgetType":"CANVAS",
-               "componentSpecific":{
-                  "radiusMap":{
-
-                  },
-                  "colorMap":{
-                     "Example2.Pop_TwoSeg":"#ff6600",
-                     "Example2.Pop_OneSeg":"#006600"
-                  }
-               }
-            }
-         }
-      }
-   }
+    }
+  ],
+  "activeExperimentId": 1,
+  "geppettoModel": {
+    "id": 1,
+    "url": "\/Example2_MODEL443114d6c28bea741626286db9ea346a.xmi",
+    "type": "GEPPETTO_PROJECT"
+  },
+  "isPublic": false,
+  "isReadOnly": false,
+  "view": {
+    "viewStates": "{\"views\":{\"Canvas1\":{\"widgetType\":\"CANVAS\",\"componentSpecific\":{\"radiusMap\":{},\"colorMap\":{\"Example2.Pop_TwoSeg\":\"#ff6600\",\"Example2.Pop_OneSeg\":\"#006600\"}}}}}",
+    "id": 0
+  }
 }
